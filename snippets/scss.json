@@ -35,12 +35,13 @@
   },
   "Media queries": {
     "prefix": "mm",
+    "description": "Media Queries selector",
     "body": [
       "@include break(${1|$medium,$large,$xlarge,$small|}) {",
-      "$2$0",
-      "}"
-    ],
-    "description": "Media Queries selector"
+      "  $0",
+      "}",
+      ""
+    ]
   },
   "grid autofill": {
     "prefix": "g-autofill",
