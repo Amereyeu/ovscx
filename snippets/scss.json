@@ -1,0 +1,100 @@
+{
+  "Media queries - small": {
+    "prefix": "msm",
+    "body": [
+      "@include break($$small) {",
+      "$0",
+      "}"
+    ],
+    "description": "MQ - Small"
+  },
+  "Media queries - medium": {
+    "prefix": "mmd",
+    "body": [
+      "@include break($$medium) {",
+      "$0",
+      "}"
+    ],
+    "description": "MQ - Medium"
+  },
+  "Media queries - large": {
+    "prefix": "mlg",
+    "body": [
+      "@include break($$large) {",
+      "$0",
+      "}"
+    ],
+    "description": "MQ - Large"
+  },
+  "border red": {
+    "prefix": "br",
+    "body": [
+      "border: 1px solid red;"
+    ],
+    "description": "border red - test"
+  },
+  "Media queries": {
+    "prefix": "mm",
+    "body": [
+      "@include break(${1|$medium,$large,$xlarge,$small|}) {",
+      "$2$0",
+      "}"
+    ],
+    "description": "Media Queries selector"
+  },
+  "grid autofill": {
+    "prefix": "g-autofill",
+    "description": "grid - autofill",
+    "body": [
+      "grid-template-columns: repeat(auto-fill, minmax(${1:200px}, 1fr));$0",
+      ""
+    ]
+  },
+  "grid autofit": {
+    "prefix": "g-autofit",
+    "description": "grid - autofit",
+    "body": [
+      "grid-template-columns: repeat(auto-fit, minmax(${1:200px}, 1fr));$0",
+      ""
+    ]
+  },
+  "cp-blog": {
+    "prefix": "cp-blog",
+    "description": "My blog post template",
+    "body": [
+      "---",
+      "title: ${TM_FILENAME_BASE/(-)|(\\w+)/${1:+ }${2:/capitalize}/g}",
+      "pubDate: ${CURRENT_YEAR}-${CURRENT_MONTH}-${CURRENT_DATE}T00:00:00-07:00",
+      "description: $1",
+      "category: ${2|coding,macOS,design,tech,automation|}",
+      "draft: ${3|false,true|}",
+      "---"
+    ]
+  },
+  "svg-footer": {
+    "prefix": "svg-footer",
+    "description": "footer with svg",
+    "body": [
+      ".footer {",
+      "  padding: 2rem;",
+      "  display: flex;",
+      "  flex-direction: column;",
+      "  align-items: center;",
+      "  background: \\$color-primary;",
+      "",
+      "  &__logo {",
+      "    height: 100px;",
+      "    margin: 0 auto;",
+      "    fill: var(--text);",
+      "  }",
+      "",
+      "  &__copyright p {",
+      "    font-size: 0.9rem;",
+      "    margin-top: 1rem;",
+      "    text-align: center;",
+      "  }",
+      "}",
+      ""
+    ]
+  }
+}

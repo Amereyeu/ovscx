@@ -1,0 +1,48 @@
+{
+  "arrow function": {
+    "prefix": "ff",
+    "description": "Arrow Function",
+    "body": [
+      "($1) => {",
+      "$2",
+      "}",
+      "$0",
+      ""
+    ]
+  },
+  "dom": {
+    "prefix": "rr",
+    "body": [
+      "import { BrowserRouter as Router, Switch, Route  } from 'react-router-dom';"
+    ],
+    "description": "React Router import"
+  },
+  "react-footer": {
+    "prefix": "react-footer",
+    "description": "footer with svg and year",
+    "body": [
+      "function Footer() {",
+      "  const today = new Date();",
+      "",
+      "  return (",
+      "    <footer className=\"footer\">",
+      "      <svg",
+      "        xmlns=\"http://www.w3.org/2000/svg\"",
+      "        viewBox=\"0 0 99.21 136.06\"",
+      "        className=\"footer__logo\"",
+      "      >",
+      "        <path d=\"M4.414 135.336c-.176-.908-.395-1.809-.522-2.723-.642-4.645-1.377-9.279-1.849-13.939a87.485 87.485 0 0 1-.409-10.096c.048-3.143.351-6.287 1.583-9.266.799-1.93 2.265-3.107 \" />",
+      "      </svg>",
+      "",
+      "      <div className=\"footer__copyright\">",
+      "        <p>Copyright &copy;2018 - {today.getFullYear()} foo</p>",
+      "      </div>",
+      "    </footer>",
+      "  );",
+      "}",
+      "",
+      "export default Footer;",
+      ""
+    ]
+  }
+}

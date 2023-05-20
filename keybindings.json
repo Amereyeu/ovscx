@@ -1,0 +1,75 @@
+// Empty
+[
+  {
+    "key": "shift+alt+a",
+    "command": "-editor.action.blockComment",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "ctrl+k",
+    "command": "editor.action.showDefinitionPreviewHover"
+  },
+  {
+    "key": "ctrl+shift+up",
+    "command": "-editor.action.insertCursorAbove",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+shift+up",
+    "command": "editor.emmet.action.incrementNumberByOne"
+  },
+  {
+    "key": "ctrl+shift+down",
+    "command": "-workbench.action.terminal.scrollDown",
+    "when": "terminalFocus && terminalHasBeenCreated && !terminalAltBufferActive || terminalFocus && terminalProcessSupported && !terminalAltBufferActive"
+  },
+  {
+    "key": "ctrl+shift+down",
+    "command": "-workbench.action.terminal.selectToNextCommand",
+    "when": "terminalFocus && terminalHasBeenCreated || terminalFocus && terminalProcessSupported"
+  },
+  {
+    "key": "shift+alt+down",
+    "command": "editor.action.copyLinesDownAction",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "ctrl+shift+alt+down",
+    "command": "-editor.action.copyLinesDownAction",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "shift+alt+up",
+    "command": "editor.action.copyLinesUpAction",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "ctrl+shift+alt+up",
+    "command": "-editor.action.copyLinesUpAction",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "ctrl+shift+down",
+    "command": "-editor.action.insertCursorBelow",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+shift+down",
+    "command": "editor.emmet.action.decrementNumberByOne"
+  },
+  {
+    "key": "shift+alt+w",
+    "command": "editor.emmet.action.wrapWithAbbreviation"
+  }
+  // {
+  //   "key": "tab",
+  //   "command": "tab",
+  //   "when": "editorTextFocus && !editorTabMovesFocus"
+  // },
+  // {
+  //   "key": "shift+tab",
+  //   "command": "outdent",
+  //   "when": "editorTextFocus && !editorTabMovesFocus"
+  // },
+]
+

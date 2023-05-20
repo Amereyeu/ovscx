@@ -1,0 +1,22 @@
+{
+  "markdown - block code": {
+    "prefix": "m-code",
+    "description": "markdown - block code",
+    "body": [
+      ":markdown-it(linkify langPrefix='highlight-')",
+      "```",
+      "$1",
+      "```",
+      "$0",
+      ""
+    ]
+  },
+  "markdown - inline code": {
+    "prefix": "mi-code",
+    "description": "markdown - inline code",
+    "body": [
+      "#[:markdown-it(inline) `$1`] $0",
+      ""
+    ]
+  }
+}

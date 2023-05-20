@@ -1,0 +1,193 @@
+{
+  "auto-close-tag.insertSpaceBeforeSelfClosingTag": true,
+  "auto-close-tag.SublimeText3Mode": true,
+  "color-highlight.languages": ["*"],
+  "color-highlight.markerType": "underline",
+  "color-highlight.markRuler": false,
+  "editor.autoClosingOvertype": "auto",
+  "editor.bracketPairColorization.enabled": true,
+  "editor.cursorBlinking": "phase",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.cursorStyle": "line",
+  "editor.cursorWidth": 5,
+  "editor.detectIndentation": false,
+  "editor.fontFamily": "'JetBrains Mono','Fira Code', monospace",
+  "editor.fontLigatures": true,
+  "editor.fontSize": 18,
+  "editor.fontWeight": "400",
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "editor.hover.enabled": false,
+  "editor.indentSize": "tabSize",
+  "editor.letterSpacing": 0.5,
+  "editor.lineHeight": 22,
+  "editor.linkedEditing": true,
+  "editor.minimap.enabled": false,
+  "editor.minimap.maxColumn": 200,
+  "editor.minimap.renderCharacters": false,
+  "editor.minimap.showSlider": "always",
+  "editor.smoothScrolling": true,
+  "editor.snippetSuggestions": "top",
+  "editor.suggestSelection": "first",
+  "editor.tabSize": 2,
+  "editor.wordWrap": "on",
+  "emmet.excludeLanguages": ["markdown"],
+  "emmet.showSuggestionsAsSnippets": true,
+  "emmet.triggerExpansionOnTab": true,
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "extensions.autoUpdate": "onlyEnabledExtensions",
+  "files.autoSave": "afterDelay",
+  "files.insertFinalNewline": true,
+  "gitlens.views.branches.branches.layout": "list",
+  "gitlens.views.repositories.files.layout": "tree",
+  "highlight-matching-tag.customEmptyElements": null,
+  "highlight-matching-tag.highlightFromContent": true,
+  "highlight-matching-tag.highlightSelfClosing": true,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "liveServer.settings.donotShowInfoMsg": true,
+  "php.validate.executablePath": "/usr/share/libgda-5.0/php",
+  "prettier.bracketSameLine": true,
+  "prettier.endOfLine": "crlf",
+  "prettier.useTabs": false,
+  "security.workspace.trust.untrustedFiles": "open",
+  "ShortcutMenuBar.commentLine": true,
+  "ShortcutMenuBar.navigateBack": false,
+  "ShortcutMenuBar.navigateForward": false,
+  "ShortcutMenuBar.openFilesList": false,
+  "ShortcutMenuBar.redo": true,
+  "ShortcutMenuBar.save": true,
+  "ShortcutMenuBar.toggleTerminal": false,
+  "ShortcutMenuBar.undo": true,
+  "ShortcutMenuBar.userButton01Command": "markdown-editor.openEditor",
+  "telemetry.telemetryLevel": "off",
+  "terminal.integrated.defaultProfile.linux": "zsh",
+  "terminal.integrated.fontSize": 16,
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "window.title": "${dirty} ${activeEditorMedium}${separator}${rootName}",
+  "workbench.activityBar.visible": true,
+  "workbench.colorTheme": "Black++ Golden Goose",
+  "workbench.enableExperiments": false,
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.productIconTheme": "icons-carbon",
+  "workbench.settings.enableNaturalLanguageSearch": false,
+  "workbench.startupEditor": "none",
+  "workbench.tree.indent": 20,
+  "emmet.includeLanguages": {
+    "twig": "html",
+    "jade": "pug",
+    "html": "html",
+    "javascript": "javascriptreact",
+    "astro": "javascript"
+  },
+  "files.associations": {
+    "*.html": "html",
+    "*.js": "javascriptreact"
+  },
+  "files.exclude": {
+    "**/.history": true
+  },
+  "highlight-matching-tag.styles": {
+    "opening": {
+      "full": {
+        "underline": "yellow"
+      }
+    }
+  },
+  "indentRainbow.colors": [
+    "rgba(255,255,255,0.1)",
+    "rgba(255,255,255,0.2)",
+    "rgba(255,255,255,0.3)",
+    "rgba(255,255,255,0.2)",
+    "rgba(255,255,255,0.1)"
+  ],
+  "todo-tree.highlights.defaultHighlight": {
+    "icon": "alert",
+    "type": "whole-line",
+    "foreground": "#000000",
+    "iconColour": "#ffffff",
+    "background": "#ffffff",
+    "gutterIcon": true
+  },
+  "todo-tree.highlights.customHighlight": {
+    "todo:": {
+      "icon": "alert",
+      "type": "whole-line",
+      "foreground": "white",
+      "iconColour": "#F1A104",
+      "background": "#F1A104",
+      "gutterIcon": true
+    },
+    "bug:": {
+      "icon": "bug",
+      "type": "whole-line",
+      "foreground": "white",
+      "iconColour": "#F94238",
+      "background": "#F94238",
+      "gutterIcon": true
+    },
+    "fixme:": {
+      "icon": "zap",
+      "type": "whole-line",
+      "foreground": "white",
+      "iconColour": "#4B606F",
+      "background": "#4B606F",
+      "gutterIcon": true
+    },
+    "done:": {
+      "icon": "verified",
+      "type": "whole-line",
+      "foreground": "white",
+      "iconColour": "#25B396",
+      "background": "#25B396",
+      "gutterIcon": true
+    },
+    "note:": {
+      "type": "whole-line",
+      "foreground": "white",
+      "iconColour": "#1669a4",
+      "background": "#1669a4",
+      "gutterIcon": true,
+      "icon": "pencil"
+    }
+  },
+  "todo-tree.general.tags": ["todo:", "bug:", "fixme:", "done:", "note:"],
+  "workbench.colorCustomizations": {
+    "terminal.background": "#000",
+    "terminal.foreground": "#fff"
+  },
+  "[astro]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[dockercompose]": {
+    "editor.defaultFormatter": "ms-azuretools.vscode-docker"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[scss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
+}
+
