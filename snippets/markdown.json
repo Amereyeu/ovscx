@@ -1,0 +1,16 @@
+{
+  "cp-blog": {
+    "prefix": "cp-blog",
+    "description": "Blog post header",
+    "body": [
+      "---",
+      "title: ${TM_FILENAME_BASE/(-)|(\\w+)/${1:+ }${2:/capitalize}/g}",
+      "pubDate: ${CURRENT_YEAR}-${CURRENT_MONTH}-${CURRENT_DATE}T00:00:00-07:00",
+      "description: $1",
+      "category: ${2|coding,macOS,design,tech,automation|}",
+      "draft: ${3|false,true|}",
+      "---",
+      ""
+    ]
+  }
+}
