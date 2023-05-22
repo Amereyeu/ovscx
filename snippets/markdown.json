@@ -1,7 +1,7 @@
 {
-  "cp-blog": {
-    "prefix": "cp-blog",
-    "description": "Blog post header",
+  "Blog Header": {
+    "prefix": "md-blog",
+    "description": "Markdown Blog post header",
     "body": [
       "---",
       "title: ${TM_FILENAME_BASE/(-)|(\\w+)/${1:+ }${2:/capitalize}/g}",
@@ -12,5 +12,23 @@
       "---",
       ""
     ]
+  },
+  "Inline Code": {
+    "prefix": "md-inline",
+    "description": "Markdown Inline Code",
+    "body": [
+      "`$0`"
+    ]
+  },
+
+  "Block Code": {
+    "prefix": "md-block",
+    "body": [
+      "```$1", 
+        "$2", 
+      "```"
+    ],
+    "description": "Markdown Blog Code"
   }
 }
+
