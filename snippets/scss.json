@@ -6,7 +6,7 @@
     ],
     "description": "border red - test"
   },
-  "Media queries": {
+  "media queries": {
     "prefix": "mm",
     "description": "Media Queries selector",
     "body": [
@@ -17,7 +17,7 @@
     ]
   },
   "grid autofill": {
-    "prefix": "g-autofill",
+    "prefix": "gr-autofill",
     "description": "grid - autofill",
     "body": [
       "grid-template-columns: repeat(auto-fill, minmax(${1:200px}, 1fr));$0",
@@ -25,14 +25,14 @@
     ]
   },
   "grid autofit": {
-    "prefix": "g-autofit",
+    "prefix": "gr-autofit",
     "description": "grid - autofit",
     "body": [
       "grid-template-columns: repeat(auto-fit, minmax(${1:200px}, 1fr));$0",
       ""
     ]
   },
-  "svg-footer": {
+  "svg footer": {
     "prefix": "svg-footer",
     "description": "footer with svg",
     "body": [
@@ -46,7 +46,7 @@
       "  &__logo {",
       "    height: 100px;",
       "    margin: 0 auto;",
-      "    fill: var(--text);",
+      "    fill: \\$color-secondary;",
       "  }",
       "",
       "  &__copyright p {",
@@ -59,3 +59,4 @@
     ]
   }
 }
+
