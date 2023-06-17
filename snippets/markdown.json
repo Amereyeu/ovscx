@@ -1,15 +1,31 @@
 {
   "Blog Header": {
-    "prefix": "md-blog",
-    "description": "Markdown Blog post header",
+    "prefix": "md-blog-header",
+    "description": "Markdown Blog Post Header",
     "body": [
       "---",
-      "title: ${TM_FILENAME_BASE/(-)|(\\w+)/${1:+ }${2:/capitalize}/g}",
-      "pubDate: ${CURRENT_YEAR}-${CURRENT_MONTH}-${CURRENT_DATE}T00:00:00-07:00",
-      "description: $1",
-      "category: ${2|coding,macOS,design,tech,automation|}",
-      "draft: ${3|false,true|}",
+      "title: $1",
+      "date: ${CURRENT_YEAR}-${CURRENT_MONTH}-${CURRENT_DATE}T00:00:00-07:00",
+      "author: Chef",
+      "image: { src: \"/images/$2.jpg\", alt: \"$2\" }",
+      "description: ${3:x}",
+      "draft: ${4|false,true|}",
+      "category: ${5|Maso,Sladké,Bez masa|}",
       "---",
+      ""
+    ]
+  },  
+  "Blog Body": {
+    "prefix": "md-blog-body",
+    "description": "Markdown Blog Post Body",
+    "body": [
+      "# Ingredience",
+      "",
+      "- $1",
+      "",
+      "# Postup",
+      "",
+      "$2",
       ""
     ]
   },
@@ -20,15 +36,15 @@
       "`$0`"
     ]
   },
-
   "Block Code": {
     "prefix": "md-block",
     "body": [
-      "```$1", 
-        "$2", 
+      "```$1",
+      "$2",
       "```"
     ],
     "description": "Markdown Blog Code"
-  }
+  },
+
 }
 
