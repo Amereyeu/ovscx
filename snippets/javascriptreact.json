@@ -1,21 +1,21 @@
 {
   "arrow function": {
-    "prefix": "ff",
-    "description": "Arrow Function",
+    "prefix": "js-arrow function",
     "body": [
-      "($1) => {",
-      "$2",
-      "}",
-      "$0",
+      "($1) => {", 
+      "  $2", 
+      "}", 
+      "$0", 
       ""
-    ]
+    ],
+    "description": "Arrow Function"
   },
   "dom": {
-    "prefix": "rr",
+    "prefix": "js-react router",
     "body": [
       "import { BrowserRouter as Router, Switch, Route  } from 'react-router-dom';"
     ],
-    "description": "React Router import"
+    "description": "React Router Import"
   },
   "react-footer": {
     "prefix": "react-footer",
@@ -44,5 +44,14 @@
       "export default Footer;",
       ""
     ]
+  },
+  "backtics": {
+    "prefix": "js-backtics",
+    "body": [
+      "`$1 ${$2} $3`$0"
+    ],
+    "description": "JS Backticks"
   }
 }
+
+
