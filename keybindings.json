@@ -1,4 +1,3 @@
-// Empty
 [
   {
     "key": "shift+alt+a",
@@ -62,6 +61,16 @@
     "command": "editor.emmet.action.wrapWithAbbreviation"
   }
   // {
+  //   "key": "capslock capslock",
+  //   "command": "extension.vim_escape",
+  //   "when": "editorTextFocus && vim.active && !inDebugRepl"
+  // },
+  // {
+  //   "key": "escape",
+  //   "command": "-extension.vim_escape",
+  //   "when": "editorTextFocus && vim.active && !inDebugRepl"
+  // }
+  // {
   //   "key": "tab",
   //   "command": "tab",
   //   "when": "editorTextFocus && !editorTabMovesFocus"
@@ -72,4 +81,5 @@
   //   "when": "editorTextFocus && !editorTabMovesFocus"
   // },
 ]
+
 
