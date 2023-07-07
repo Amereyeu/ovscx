@@ -1,34 +1,32 @@
 {
   "TODO - done": {
-    "prefix": ".done",
+    "prefix": "todo-done",
     "body": [
       "// done: $1",
     ]
   },
   "TODO - bug": {
-    "prefix": ".bug",
+    "prefix": "todo-bug",
     "body": [
       "// bug: $1",
     ]
   },
   "TODO - note": {
-    "prefix": ".note",
+    "prefix": "todo-note",
     "body": [
       "// note: $1",
     ]
   },
   "TODO - fixme": {
-    "prefix": ".fixme",
+    "prefix": "todo-fixme",
     "body": [
       "// fixme: $1",
     ]
   },
   "TODO - todo": {
-    "prefix": ".todo",
+    "prefix": "todo-todo",
     "body": [
       "// todo: $1",
     ]
   },
 }
-
-
