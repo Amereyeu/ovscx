@@ -17,6 +17,7 @@
   "editor.fontWeight": "400",
   "editor.formatOnPaste": true,
   "editor.formatOnSave": true,
+  "editor.guides.bracketPairs": true,
   "editor.hover.enabled": false,
   "editor.indentSize": "tabSize",
   "editor.letterSpacing": 0.5,
@@ -41,7 +42,7 @@
   "files.insertFinalNewline": true,
   "gitlens.views.branches.branches.layout": "list",
   "gitlens.views.repositories.files.layout": "tree",
-  "highlight-matching-tag.customEmptyElements": null,
+  // "highlight-matching-tag.customEmptyElements": null,
   "highlight-matching-tag.highlightFromContent": true,
   "highlight-matching-tag.highlightSelfClosing": true,
   "javascript.updateImportsOnFileMove.enabled": "always",
@@ -63,6 +64,18 @@
   "telemetry.telemetryLevel": "off",
   "terminal.integrated.defaultProfile.linux": "zsh",
   "terminal.integrated.fontSize": 16,
+  "vim.statusBarColorControl": true,
+  "vim.statusBarColors.commandlineinprogress": ["#12abe3", "#000000"],
+  "vim.statusBarColors.easymotioninputmode": ["#12abe3", "#000000"],
+  "vim.statusBarColors.easymotionmode": ["#12abe3", "#000000"],
+  "vim.statusBarColors.insert": ["#D8DEE9", "#000000"],
+  "vim.statusBarColors.normal": ["#000000", "#fbfbfb"],
+  "vim.statusBarColors.replace": ["#88c0d0", "#000000"],
+  "vim.statusBarColors.searchinprogressmode": ["#12abe3", "#000000"],
+  "vim.statusBarColors.surroundinputmode": ["#12abe3", "#000000"],
+  "vim.statusBarColors.visual": ["#D6AD60", "#000000"],
+  "vim.statusBarColors.visualblock": ["#D6AD60", "#000000"],
+  "vim.statusBarColors.visualline": ["#D6AD60", "#000000"],
   "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
   "window.title": "${dirty} ${activeEditorMedium}${separator}${rootName}",
   "workbench.activityBar.visible": true,
@@ -154,7 +167,12 @@
   "todo-tree.general.tags": ["todo:", "bug:", "fixme:", "done:", "note:"],
   "workbench.colorCustomizations": {
     "terminal.background": "#000",
-    "terminal.foreground": "#fff"
+    "terminal.foreground": "#fff",
+    "statusBar.background": "#D8DEE9",
+    "statusBar.noFolderBackground": "#D8DEE9",
+    "statusBar.debuggingBackground": "#D8DEE9",
+    "statusBar.foreground": "#000000",
+    "statusBar.debuggingForeground": "#000000"
   },
   "[astro]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
@@ -179,6 +197,13 @@
   },
   "[jsonc]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[markdown]": {
+    "editor.quickSuggestions": {
+      "other": true,
+      "comments": false,
+      "strings": false
+    }
   },
   "[scss]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
