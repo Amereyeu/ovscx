@@ -8,7 +8,12 @@
 "                 ╚═══╝  ╚═╝╚═╝     ╚═╝╚═╝  ╚═╝ ╚═════╝
 "               
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""    
-nnoremap n vat
-nnoremap N vatVSt
-nnoremap m gcc
-nnoremap M gcaB
+
+nnoremap <Leader>n vat
+nnoremap <Leader>w vatVSt
+nnoremap <Leader>l gcc
+nnoremap <Leader>b gcaB
+
+nnoremap <TAB> :tabn<CR>
+nnoremap <S-TAB> :tabp<CR>
+
