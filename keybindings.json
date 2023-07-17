@@ -59,27 +59,25 @@
   {
     "key": "shift+alt+w",
     "command": "editor.emmet.action.wrapWithAbbreviation"
-  }
-  // {
-  //   "key": "capslock capslock",
-  //   "command": "extension.vim_escape",
-  //   "when": "editorTextFocus && vim.active && !inDebugRepl"
-  // },
-  // {
-  //   "key": "escape",
-  //   "command": "-extension.vim_escape",
-  //   "when": "editorTextFocus && vim.active && !inDebugRepl"
-  // }
-  // {
-  //   "key": "tab",
-  //   "command": "tab",
-  //   "when": "editorTextFocus && !editorTabMovesFocus"
-  // },
-  // {
-  //   "key": "shift+tab",
-  //   "command": "outdent",
-  //   "when": "editorTextFocus && !editorTabMovesFocus"
-  // },
+  },
+  {
+    "key": "shift+alt+k",
+    "command": "extension.vim_cmd+alt+up",
+    "when": "editorTextFocus && vim.active && !inDebugRepl"
+  },
+	{
+	  "key": "shift+alt+j",
+	  "command": "editor.action.moveLinesDownAction"
+	},
+	{
+	  "key": "shift+alt+k",
+	  "command": "editor.action.moveLinesUpAction",
+	  "when": "editorTextFocus && !editorReadonly"
+	},
+	{
+	  "key": "shift+k",
+	  "command": "editor.action.showHover",
+	  "when": "editorTextFocus"
+	}
 ]
-
 
