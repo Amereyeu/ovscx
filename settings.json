@@ -42,7 +42,7 @@
   "files.insertFinalNewline": true,
   "gitlens.views.branches.branches.layout": "list",
   "gitlens.views.repositories.files.layout": "tree",
-  // "highlight-matching-tag.customEmptyElements": null,
+  "highlight-matching-tag.customEmptyElements": null,
   "highlight-matching-tag.highlightFromContent": true,
   "highlight-matching-tag.highlightSelfClosing": true,
   "javascript.updateImportsOnFileMove.enabled": "always",
