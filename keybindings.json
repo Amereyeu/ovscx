@@ -66,18 +66,18 @@
     "when": "editorTextFocus && vim.active && !inDebugRepl"
   },
 	{
-	  "key": "shift+alt+j",
-	  "command": "editor.action.moveLinesDownAction"
+	"key": "shift+alt+j",
+	"command": "editor.action.moveLinesDownAction"
 	},
 	{
-	  "key": "shift+alt+k",
-	  "command": "editor.action.moveLinesUpAction",
-	  "when": "editorTextFocus && !editorReadonly"
+	"key": "shift+alt+k",
+	"command": "editor.action.moveLinesUpAction",
+	"when": "editorTextFocus && !editorReadonly"
 	},
 	{
-	  "key": "shift+k",
-	  "command": "editor.action.showHover",
-	  "when": "editorTextFocus"
+	"key": "shift+k",
+	"command": "editor.action.showHover",
+	"when": "editorTextFocus"
 	}
 ]
 
