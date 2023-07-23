@@ -42,7 +42,7 @@
   "files.insertFinalNewline": true,
   "gitlens.views.branches.branches.layout": "list",
   "gitlens.views.repositories.files.layout": "tree",
-  "highlight-matching-tag.customEmptyElements": null,
+  // "highlight-matching-tag.customEmptyElements": null,
   "highlight-matching-tag.highlightFromContent": true,
   "highlight-matching-tag.highlightSelfClosing": true,
   "javascript.updateImportsOnFileMove.enabled": "always",
@@ -63,7 +63,9 @@
   "ShortcutMenuBar.userButton01Command": "markdown-editor.openEditor",
   "telemetry.telemetryLevel": "off",
   "terminal.integrated.defaultProfile.linux": "zsh",
+  "terminal.integrated.fontFamily": "MesloLGS NF",
   "terminal.integrated.fontSize": 16,
+  "terminal.integrated.fontWeight": "normal",
   "vim.highlightedyank.duration": 2000,
   "vim.highlightedyank.enable": true,
   "vim.hlsearch": true,
@@ -224,5 +226,7 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   }
 }
+
+
 
 
