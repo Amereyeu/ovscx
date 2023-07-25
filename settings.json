@@ -4,6 +4,8 @@
   "color-highlight.languages": ["*"],
   "color-highlight.markerType": "underline",
   "color-highlight.markRuler": false,
+  "dashboard.openOnStartup": "never",
+  "dashboard.projectTileWidth": 251,
   "editor.autoClosingOvertype": "auto",
   "editor.bracketPairColorization.enabled": true,
   "editor.cursorBlinking": "phase",
@@ -226,7 +228,4 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   }
 }
-
-
-
 
