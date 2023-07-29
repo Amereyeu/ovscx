@@ -48,6 +48,10 @@
   "highlight-matching-tag.highlightSelfClosing": true,
   "javascript.updateImportsOnFileMove.enabled": "always",
   "liveServer.settings.donotShowInfoMsg": true,
+  "material-icon-theme.activeIconPack": "react",
+  "material-icon-theme.files.color": "#ffffff",
+  "material-icon-theme.folders.color": "#ffffff",
+  "material-icon-theme.saturation": 0,
   "php.validate.executablePath": "/usr/share/libgda-5.0/php",
   "prettier.bracketSameLine": true,
   "prettier.endOfLine": "crlf",
@@ -126,57 +130,57 @@
     "rgba(255,255,255,0.2)",
     "rgba(255,255,255,0.1)"
   ],
+  "todo-tree.general.tags": ["todo:", "bug:", "fixme:", "done:", "note:"],
   "todo-tree.highlights.defaultHighlight": {
-    "icon": "alert",
-    "type": "whole-line",
-    "foreground": "#000000",
-    "iconColour": "#ffffff",
     "background": "#ffffff",
-    "gutterIcon": true
+    "foreground": "#000000",
+    "gutterIcon": true,
+    "icon": "alert",
+    "iconColour": "#ffffff",
+    "type": "whole-line"
   },
   "todo-tree.highlights.customHighlight": {
     "todo:": {
-      "icon": "alert",
-      "type": "whole-line",
-      "foreground": "#FFFFFF",
-      "iconColour": "#F1A104",
       "background": "#F1A104",
-      "gutterIcon": true
+      "foreground": "#FFFFFF",
+      "gutterIcon": true,
+      "icon": "alert",
+      "iconColour": "#F1A104",
+      "type": "whole-line"
     },
     "bug:": {
-      "icon": "bug",
-      "type": "whole-line",
-      "foreground": "#FFFFFF",
-      "iconColour": "#F94238",
       "background": "#F94238",
-      "gutterIcon": true
+      "foreground": "#FFFFFF",
+      "gutterIcon": true,
+      "icon": "bug",
+      "iconColour": "#F94238",
+      "type": "whole-line"
     },
     "fixme:": {
-      "icon": "zap",
-      "type": "whole-line",
-      "foreground": "#FFFFFF",
-      "iconColour": "#4B606F",
       "background": "#4B606F",
-      "gutterIcon": true
+      "foreground": "#FFFFFF",
+      "gutterIcon": true,
+      "icon": "zap",
+      "iconColour": "#4B606F",
+      "type": "whole-line"
     },
     "done:": {
-      "icon": "verified",
-      "type": "whole-line",
-      "foreground": "#FFFFFF",
-      "iconColour": "#25B396",
       "background": "#25B396",
-      "gutterIcon": true
+      "foreground": "#FFFFFF",
+      "gutterIcon": true,
+      "icon": "verified",
+      "iconColour": "#25B396",
+      "type": "whole-line"
     },
     "note:": {
-      "type": "whole-line",
-      "foreground": "#FFFFFF",
-      "iconColour": "#1669a4",
       "background": "#1669a4",
+      "foreground": "#FFFFFF",
       "gutterIcon": true,
-      "icon": "pencil"
+      "icon": "pencil",
+      "iconColour": "#1669a4",
+      "type": "whole-line"
     }
   },
-  "todo-tree.general.tags": ["todo:", "bug:", "fixme:", "done:", "note:"],
   "workbench.colorCustomizations": {
     "terminal.background": "#000",
     "terminal.foreground": "#fff",
@@ -212,8 +216,8 @@
   },
   "[markdown]": {
     "editor.quickSuggestions": {
-      "other": true,
       "comments": false,
+      "other": true,
       "strings": false
     }
   },
