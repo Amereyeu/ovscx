@@ -5,7 +5,7 @@
   "color-highlight.markerType": "underline",
   "color-highlight.markRuler": false,
   "dashboard.openOnStartup": "never",
-  "dashboard.projectTileWidth": 251,
+  "dashboard.projectTileWidth": 250,
   "editor.autoClosingOvertype": "auto",
   "editor.bracketPairColorization.enabled": true,
   "editor.cursorBlinking": "phase",
