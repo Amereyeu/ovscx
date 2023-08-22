@@ -65,19 +65,31 @@
     "command": "extension.vim_cmd+alt+up",
     "when": "editorTextFocus && vim.active && !inDebugRepl"
   },
-	{
-	"key": "shift+alt+j",
-	"command": "editor.action.moveLinesDownAction"
-	},
-	{
-	"key": "shift+alt+k",
-	"command": "editor.action.moveLinesUpAction",
-	"when": "editorTextFocus && !editorReadonly"
-	},
-	{
-	"key": "shift+k",
-	"command": "editor.action.showHover",
-	"when": "editorTextFocus"
-	}
+  {
+    "key": "shift+alt+j",
+    "command": "editor.action.moveLinesDownAction"
+  },
+  {
+    "key": "shift+alt+k",
+    "command": "editor.action.moveLinesUpAction",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "shift+k",
+    "command": "editor.action.showHover",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+a",
+    "command": "editor.action.selectAll"
+  },
+  {
+    "key": "ctrl+c",
+    "command": "editor.action.clipboardCopyAction"
+  },
+  {
+    "key": "ctrl+v",
+    "command": "editor.action.clipboardPasteAction"
+  }
 ]
 
