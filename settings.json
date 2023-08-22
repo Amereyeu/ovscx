@@ -79,6 +79,7 @@
   "vim.leader": "<Space>",
   // "vim.searchHighlightColor": "#D6AD60",
   // "vim.searchHighlightTextColor": "#000",
+  "vim.mouseSelectionGoesIntoVisualMode": false,
   "vim.showMarksInGutter": true,
   "vim.statusBarColorControl": true,
   "vim.statusBarColors.commandlineinprogress": ["#12abe3", "#000000"],
