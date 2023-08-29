@@ -1,11 +1,18 @@
 {
   "border red": {
     "prefix": "br",
-    "body": [
-      "border: 1px solid red;"
-    ],
-    "description": "border red - test"
+    "description": "border red - test",
+    "body": ["border: 1px solid red;", ""]
+  },
+  "border blue": {
+    "prefix": "brb",
+    "body": ["border: 1px solid blue;"],
+    "description": "border blue - test"
+  },
+  "border green": {
+    "prefix": "brg",
+    "body": ["border: 1px solid green;"],
+    "description": "border green - test"
   }
 }
-
 
