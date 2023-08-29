@@ -5,6 +5,16 @@
       "border: 1px solid red;"
     ],
     "description": "border red - test"
+  },  
+  "border blue": {
+    "prefix": "brb",
+    "body": ["border: 1px solid blue;"],
+    "description": "border blue - test"
+  },
+  "border green": {
+    "prefix": "brg",
+    "body": ["border: 1px solid green;"],
+    "description": "border green - test"
   },
   "media queries": {
     "prefix": "mm",
