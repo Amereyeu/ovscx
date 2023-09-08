@@ -105,6 +105,16 @@
   "workbench.settings.enableNaturalLanguageSearch": false,
   "workbench.startupEditor": "none",
   "workbench.tree.indent": 20,
+  "workbench.tree.renderIndentGuides": "always",
+  "workbench.colorCustomizations": {
+    "terminal.background": "#000",
+    "terminal.foreground": "#fff",
+    "statusBar.background": "#000000",
+    "statusBar.noFolderBackground": "#000000",
+    "statusBar.debuggingBackground": "#000000",
+    "statusBar.foreground": "#fbfbfb",
+    "statusBar.debuggingForeground": "#fbfbfb"
+  },
   "emmet.includeLanguages": {
     "twig": "html",
     "jade": "pug",
@@ -183,15 +193,6 @@
       "iconColour": "#1669a4",
       "type": "whole-line"
     }
-  },
-  "workbench.colorCustomizations": {
-    "terminal.background": "#000",
-    "terminal.foreground": "#fff",
-    "statusBar.background": "#D8DEE9",
-    "statusBar.noFolderBackground": "#D8DEE9",
-    "statusBar.debuggingBackground": "#D8DEE9",
-    "statusBar.foreground": "#000000",
-    "statusBar.debuggingForeground": "#000000"
   },
   "[astro]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
