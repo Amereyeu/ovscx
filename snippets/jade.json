@@ -1,5 +1,5 @@
 {
-  "pg-switch": {
+  "pug switch": {
     "prefix": "pg-switch",
     "description": "pug switch case",
     "body": [
@@ -14,8 +14,8 @@
       ""
     ]
   },
-  "pg-menu_links": {
-    "prefix": "pg-menu_links",
+  "pug menu links": {
+    "prefix": "pg-menu-links",
     "description": "menu links without diacritics ",
     "body": [
       "- const ${1:linkItems} = [\"$3\",\"$4\", \"$5\", \"$6\"]",
@@ -28,7 +28,7 @@
       ""
     ]
   },
-  "pg-list": {
+  "pug list": {
     "prefix": "pg-list",
     "description": "list in pug ",
     "body": [
@@ -41,8 +41,8 @@
       ""
     ]
   },
-  "pg-paragraph_multiline": {
-    "prefix": "pg-paragraph_multiline",
+  "pug paragraph multiline": {
+    "prefix": "pg-paragraph-multiline",
     "description": "pug paragraph multiline",
     "body": [
       "p ",
@@ -51,7 +51,7 @@
       ""
     ]
   },
-  "pg-link": {
+  "pug link": {
     "prefix": "pg-link",
     "description": "pug link",
     "body": [
@@ -60,7 +60,7 @@
       ""
     ]
   },
-  "pg-prepend": {
+  "pug prepend": {
     "prefix": "pg-prepend",
     "description": "pug prepend",
     "body": [
@@ -70,7 +70,7 @@
       ""
     ]
   },
-  "pg-block": {
+  "pug block": {
     "prefix": "pg-block",
     "description": "pug block",
     "body": [
@@ -79,5 +79,18 @@
       "$0",
       ""
     ]
-  }
+  },
+  "pug list2": {
+    "prefix": "pglst",
+    "description": "pug list",
+    "body": [
+      "- const ${1:listItems} = [${3/([^|]+)|([|])/${1:+\"}$1${1:+\"}${2:+, }/g}]",
+      "",
+      "ul",
+      "  each ${2:item}, i in ${1}",
+      "    li #{ ${2} } ",
+      "$0",
+      ""
+    ]
+  },
 }
