@@ -35,7 +35,7 @@
   "editor.suggestSelection": "first",
   "editor.tabSize": 2,
   "editor.wordWrap": "on",
-  "emmet.excludeLanguages": ["markdown"],
+  "emmet.excludeLanguages": ["markdown", "jade", "pug"],
   "emmet.showSuggestionsAsSnippets": true,
   "emmet.triggerExpansionOnTab": true,
   "explorer.confirmDelete": false,
@@ -101,7 +101,6 @@
   "workbench.colorTheme": "Black++ Nord Stream",
   "workbench.enableExperiments": false,
   "workbench.iconTheme": "material-icon-theme",
-  "workbench.productIconTheme": "icons-carbon",
   "workbench.settings.enableNaturalLanguageSearch": false,
   "workbench.startupEditor": "none",
   "workbench.tree.indent": 20,
@@ -117,7 +116,6 @@
   },
   "emmet.includeLanguages": {
     "twig": "html",
-    "jade": "pug",
     "html": "html",
     "javascript": "javascriptreact",
     "astro": "javascript"
@@ -233,6 +231,9 @@
   },
   "[typescriptreact]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
-  }
+  },
+  "workbench.productIconTheme": "icons-carbon",
+  "git.enableSmartCommit": true,
+  "typescript.updateImportsOnFileMove.enabled": "always"
 }
 
