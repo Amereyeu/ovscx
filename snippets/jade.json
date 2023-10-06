@@ -16,27 +16,14 @@
   },
   "pug menu links": {
     "prefix": "pg-menu-links",
-    "description": "menu links without diacritics ",
+    "description": "menu links without diacritics",
     "body": [
-      "- const ${1:linkItems} = [\"$3\",\"$4\", \"$5\", \"$6\"]",
-      "",
-      "ul",
-      "  each ${2:item}, i in ${1:linkItems} ",
-      "    li",
-      "      a(href=${2:item}.toLowerCase().normalize(\"NFD\").replace(/\\p{Diacritic}/gu, \"\").split(\" \").join(\"-\") + \".html\", class=\"nav-link\") #{ ${2:item} } ",
-      "$0",
-      ""
-    ]
-  },
-  "pug list": {
-    "prefix": "pg-list",
-    "description": "list in pug ",
-    "body": [
-      "- const ${1:listItems} = [${3/([^|]+)|([|])/${1:+\\\"}$1${1:+\\\"}${2:+, }/g}]",
+      "- const ${1:linkItems} = [${3/([^|]+)|([|])/${1:+\"}$1${1:+\"}${2:+, }/g}]",
       "",
       "ul",
       "  each ${2:item}, i in ${1} ",
-      "    li #{ ${2} } ",
+      "    li",
+      "      a(href=${2}.toLowerCase().normalize(\"NFD\").replace(/\\p{Diacritic}/gu, \"\").split(\" \").join(\"-\") + \".html\", class=\"nav-link\") #{ ${2} } ",
       "$0",
       ""
     ]
@@ -62,7 +49,7 @@
   },
   "pug prepend": {
     "prefix": "pg-prepend",
-    "description": "pug prepend",
+    "description": "pug prepend block",
     "body": [
       "prepend ${1:block_name} ",
       "  - let ${2:case_name} = \"${3:case_option}\"",
@@ -80,8 +67,8 @@
       ""
     ]
   },
-  "pug list2": {
-    "prefix": "pglst",
+  "pug list": {
+    "prefix": "pg-list",
     "description": "pug list",
     "body": [
       "- const ${1:listItems} = [${3/([^|]+)|([|])/${1:+\"}$1${1:+\"}${2:+, }/g}]",
@@ -93,4 +80,48 @@
       ""
     ]
   },
+  "pug include": {
+    "prefix": "pg-include",
+    "description": "pug include partial",
+    "body": [
+      "include ${1:path_to_partial}",
+      ""
+    ]
+  },
+  "pug extends": {
+    "prefix": "pg-extends",
+    "description": "pug extends template",
+    "body": [
+      "extends ${1:path_to_template}",
+      ""
+    ]
+  },
+  "pug image": {
+    "prefix": "pg-image",
+    "description": "pug image",
+    "body": [
+      "img(src=\"$1\" alt=\"$2\")",
+      ""
+    ]
+  },
+  "pug head section": {
+    "prefix": "pg-head-section",
+    "description": "pug head section",
+    "body": [
+      "head",
+      "  meta(charset='utf-8')",
+      "  meta(name='viewport' content=\"width=device-width, initial-scale=1\")",
+      "  title $1",
+      "  meta(name=\"description\" content=\"$2\")",
+      "  meta(name=\"keyword\" content=\"$3\")",
+      "  link(rel='icon' href='favicon.ico' type=\"image/x-icon\")",
+      "  link(rel='apple-touch-icon' sizes='180x180' href='/apple-touch-icon.png')",
+      "  link(rel='icon' type='image/png' sizes='32x32' href='/favicon-32x32.png')",
+      "  link(rel='icon' type='image/png' sizes='16x16' href='/favicon-16x16.png')",
+      "  link(rel='manifest' href='/site.webmanifest')",
+      "  link(rel=\"stylesheet\" href=\"css/styles.css?cb=1312\")",
+      "$0",
+      ""
+    ]
+  }
 }
