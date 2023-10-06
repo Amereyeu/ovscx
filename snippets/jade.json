@@ -49,9 +49,19 @@
   },
   "pug prepend": {
     "prefix": "pg-prepend",
-    "description": "pug prepend block",
+    "description": "pug prepend to block",
     "body": [
       "prepend ${1:block_name} ",
+      "  - let ${2:case_name} = \"${3:case_option}\"",
+      "$0",
+      ""
+    ]
+  },
+  "pug append": {
+    "prefix": "pg-append",
+    "description": "pug append to block",
+    "body": [
+      "append ${1:block_name} ",
       "  - let ${2:case_name} = \"${3:case_option}\"",
       "$0",
       ""
