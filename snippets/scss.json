@@ -1,11 +1,9 @@
 {
   "border red": {
     "prefix": "br",
-    "body": [
-      "border: 1px solid red;"
-    ],
+    "body": ["border: 1px solid red;"],
     "description": "border red - test"
-  },  
+  },
   "border blue": {
     "prefix": "brb",
     "body": ["border: 1px solid blue;"],
@@ -65,6 +63,17 @@
       "    text-align: center;",
       "  }",
       "}",
+      ""
+    ]
+  },
+  "fixed div": {
+    "prefix": "fixed-div",
+    "description": "Centered fixed div vertically and horizontally",
+    "body": [
+      "position: fixed;",
+      "top: 50%;",
+      "left: 50%;",
+      "transform: translate(-50%, -50%);",
       ""
     ]
   }
