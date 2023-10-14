@@ -76,6 +76,17 @@
       "transform: translate(-50%, -50%);",
       ""
     ]
+  },
+  "comment": {
+    "prefix": "comment",
+    "description": "scc comment ",
+    "body": [
+      "// ",
+      "// $1",
+      "//",
+      "$0",
+      ""
+    ]
   }
 }
 
