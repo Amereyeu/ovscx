@@ -79,7 +79,7 @@
   },
   "comment": {
     "prefix": "comment",
-    "description": "scc comment ",
+    "description": "scss comment ",
     "body": [
       "// ",
       "// $1",
