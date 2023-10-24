@@ -42,6 +42,7 @@
   "explorer.confirmDragAndDrop": false,
   "files.autoSave": "afterDelay",
   "files.insertFinalNewline": true,
+  "git.enableSmartCommit": true,
   "gitlens.views.branches.branches.layout": "list",
   "gitlens.views.repositories.files.layout": "tree",
   // "highlight-matching-tag.customEmptyElements": null,
@@ -72,6 +73,11 @@
   "terminal.integrated.fontFamily": "MesloLGS NF",
   "terminal.integrated.fontSize": 16,
   "terminal.integrated.fontWeight": "normal",
+  "todo-tree.general.showIconsInsteadOfTagsInStatusBar": true,
+  "todo-tree.general.statusBar": "tags",
+  "todo-tree.general.statusBarClickBehaviour": "cycle",
+  "todo-tree.regex.regex": "((//|//-|#|<!--|;|REM|/\\*|^|-)\\s*($TAGS))",
+  "typescript.updateImportsOnFileMove.enabled": "always",
   "vim.highlightedyank.duration": 2000,
   "vim.highlightedyank.enable": true,
   "vim.hlsearch": true,
@@ -101,6 +107,7 @@
   "workbench.colorTheme": "Black++ Nord Stream",
   "workbench.enableExperiments": false,
   "workbench.iconTheme": "material-icon-theme",
+  "workbench.productIconTheme": "icons-carbon",
   "workbench.settings.enableNaturalLanguageSearch": false,
   "workbench.startupEditor": "none",
   "workbench.tree.indent": 20,
@@ -127,6 +134,13 @@
   "files.exclude": {
     "**/.history": true
   },
+  // "highlight-matching-tag.styles": {
+  //   "opening": {
+  //     "full": {
+  //       "underline": "yellow"
+  //     }
+  //   }
+  // },
   "indentRainbow.colors": [
     "rgba(255,255,255,0.1)",
     "rgba(255,255,255,0.2)",
@@ -135,6 +149,15 @@
     "rgba(255,255,255,0.1)"
   ],
   "todo-tree.general.tags": ["todo:", "bug:", "fixme:", "done:", "note:"],
+  "todo-tree.filtering.excludeGlobs": [
+    "**/node_modules/**",
+    "**/dist/**",
+    "**/build/**",
+    "**/.vscode/**",
+    "**/.github/**",
+    "**/*.min.*",
+    "**/*.map"
+  ],
   "todo-tree.highlights.defaultHighlight": {
     "background": "#ffffff",
     "foreground": "#000000",
@@ -224,9 +247,6 @@
   },
   "[typescriptreact]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "workbench.productIconTheme": "icons-carbon",
-  "git.enableSmartCommit": true,
-  "typescript.updateImportsOnFileMove.enabled": "always"
+  }
 }
 
