@@ -148,7 +148,7 @@
       "background": "#F1A104",
       "foreground": "#FFFFFF",
       "gutterIcon": true,
-      "icon": "alert",
+      "icon": "note",
       "iconColour": "#F1A104",
       "type": "whole-line"
     },
