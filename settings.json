@@ -78,6 +78,7 @@
   "todo-tree.general.statusBarClickBehaviour": "cycle",
   "todo-tree.regex.regex": "((//|//-|#|<!--|;|REM|/\\*|^|-)\\s*($TAGS))",
   "typescript.updateImportsOnFileMove.enabled": "always",
+  "vim.highlightedyank.color": "#D8DEE9",
   "vim.highlightedyank.duration": 2000,
   "vim.highlightedyank.enable": true,
   "vim.hlsearch": true,
@@ -87,6 +88,7 @@
   // "vim.searchHighlightTextColor": "#000",
   "vim.mouseSelectionGoesIntoVisualMode": false,
   "vim.showMarksInGutter": true,
+  "vim.smartRelativeLine": true,
   "vim.statusBarColorControl": true,
   "vim.statusBarColors.commandlineinprogress": ["#12abe3", "#000000"],
   "vim.statusBarColors.easymotioninputmode": ["#12abe3", "#000000"],
@@ -103,7 +105,6 @@
   "vim.vimrc.enable": true,
   "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
   "window.title": "${dirty} ${activeEditorMedium}${separator}${rootName}",
-  "workbench.activityBar.visible": true,
   "workbench.colorTheme": "Black++ Nord Stream",
   "workbench.enableExperiments": false,
   "workbench.iconTheme": "material-icon-theme",
@@ -129,7 +130,8 @@
   },
   "files.associations": {
     "*.html": "html",
-    "*.js": "javascriptreact"
+    "*.js": "javascriptreact",
+    "*.mdx": "markdown"
   },
   "files.exclude": {
     "**/.history": true
@@ -234,9 +236,9 @@
   },
   "[markdown]": {
     "editor.quickSuggestions": {
-      "comments": false,
+      "comments": true,
       "other": true,
-      "strings": false
+      "strings": true
     }
   },
   "[scss]": {
@@ -249,4 +251,5 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   }
 }
+
 
