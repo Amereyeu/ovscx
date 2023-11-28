@@ -75,11 +75,6 @@
     "when": "editorTextFocus && !editorReadonly"
   },
   {
-    "key": "shift+k",
-    "command": "editor.action.showHover",
-    "when": "editorTextFocus"
-  },
-  {
     "key": "ctrl+a",
     "command": "editor.action.selectAll"
   },
