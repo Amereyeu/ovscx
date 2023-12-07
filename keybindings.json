@@ -85,6 +85,22 @@
   {
     "key": "ctrl+v",
     "command": "editor.action.clipboardPasteAction"
+  },
+  {
+    "key": "space e",
+    "command": "workbench.action.focusSideBar"
+  },
+  {
+    "key": "ctrl+0",
+    "command": "-workbench.action.focusSideBar"
+  },
+  {
+    "key": "space f",
+    "command": "workbench.action.quickOpen"
+  },
+  {
+    "key": "ctrl+e",
+    "command": "-workbench.action.quickOpen"
   }
 ]
 
