@@ -5,7 +5,10 @@
   "color-highlight.markerType": "underline",
   "color-highlight.markRuler": false,
   "dashboard.openOnStartup": "never",
-  "dashboard.projectTileWidth": 250,
+  "dashboard.prependVscodeUrlToWslRemotes": false,
+  "dashboard.projectTileWidth": 350,
+  "dashboard.recentColorsToRemember": 0,
+  "dashboard.searchIsActiveByDefault": false,
   "editor.autoClosingOvertype": "auto",
   "editor.bracketPairColorization.enabled": true,
   "editor.cursorBlinking": "phase",
@@ -70,15 +73,15 @@
   "ShortcutMenuBar.userButton01Command": "markdown-editor.openEditor",
   "telemetry.telemetryLevel": "off",
   "terminal.integrated.defaultProfile.linux": "zsh",
-  "terminal.integrated.fontFamily": "MesloLGS NF",
+  "terminal.integrated.fontFamily": "JetBrains Mono",
   "terminal.integrated.fontSize": 16,
   "terminal.integrated.fontWeight": "normal",
   "todo-tree.general.showIconsInsteadOfTagsInStatusBar": true,
-  "todo-tree.general.statusBar": "tags",
+  "todo-tree.general.statusBar": "current file",
   "todo-tree.general.statusBarClickBehaviour": "cycle",
   "todo-tree.regex.regex": "((//|//-|#|<!--|;|REM|/\\*|^|-)\\s*($TAGS))",
   "typescript.updateImportsOnFileMove.enabled": "always",
-  "vim.highlightedyank.color": "#D8DEE9",
+  "vim.highlightedyank.color": "#4f4f4f",
   "vim.highlightedyank.duration": 2000,
   "vim.highlightedyank.enable": true,
   "vim.hlsearch": true,
@@ -101,6 +104,7 @@
   "vim.statusBarColors.visual": ["#D6AD60", "#000000"],
   "vim.statusBarColors.visualblock": ["#D6AD60", "#000000"],
   "vim.statusBarColors.visualline": ["#D6AD60", "#000000"],
+  "vim.useCtrlKeys": true,
   "vim.useSystemClipboard": true,
   "vim.vimrc.enable": true,
   "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
@@ -116,11 +120,11 @@
   "workbench.colorCustomizations": {
     "terminal.background": "#000",
     "terminal.foreground": "#fff",
-    "statusBar.background": "#000000",
-    "statusBar.noFolderBackground": "#000000",
-    "statusBar.debuggingBackground": "#000000",
-    "statusBar.foreground": "#fbfbfb",
-    "statusBar.debuggingForeground": "#fbfbfb"
+    "statusBar.background": "#D8DEE9",
+    "statusBar.noFolderBackground": "#D8DEE9",
+    "statusBar.debuggingBackground": "#D8DEE9",
+    "statusBar.foreground": "#000000",
+    "statusBar.debuggingForeground": "#000000"
   },
   "emmet.includeLanguages": {
     "twig": "html",
@@ -211,13 +215,10 @@
     }
   },
   "[astro]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "astro-build.astro-vscode"
   },
   "[css]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[dockercompose]": {
-    "editor.defaultFormatter": "ms-azuretools.vscode-docker"
   },
   "[html]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
@@ -251,5 +252,4 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   }
 }
-
 
