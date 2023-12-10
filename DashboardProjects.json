@@ -1,1 +1,193 @@
+[
+  {
+    "id": "reactudgicep36lki1bbxa",
+    "groupName": "react",
+    "projects": [
+      {
+        "isGitRepo": false,
+        "id": "vitem3f4imp22lkiihoyc",
+        "name": "vite",
+        "path": "/home/owner/Dokumenty/react/vite",
+        "color": "#FF7F00"
+      },
+      {
+        "isGitRepo": false,
+        "id": "radixy555c6agmlki1brfy",
+        "name": "radix",
+        "path": "/home/owner/Dokumenty/react/radix",
+        "color": "#06A189"
+      },
+      {
+        "isGitRepo": true,
+        "id": "shadcnp2lg49840lki1ch0y",
+        "name": "shadcn",
+        "path": "/home/owner/Dokumenty/react/shadcn",
+        "color": "#FFF6D4"
+      },
+      {
+        "isGitRepo": true,
+        "id": "supabase5xf53hphwllt6bsjd",
+        "name": "supabase",
+        "path": "/home/owner/Dokumenty/react/supabase",
+        "color": "#F1E9FF"
+      },
+      {
+        "isGitRepo": true,
+        "id": "next13viyzn36filn64dzg7",
+        "name": "next13",
+        "path": "/home/owner/Dokumenty/web/next13",
+        "color": "#C69191"
+      },
+      {
+        "isGitRepo": false,
+        "id": "next13blog00gndcmemlnc0qslu",
+        "name": "next13blog",
+        "path": "/home/owner/Dokumenty/web/next13-md-blog",
+        "color": "#C9B93B"
+      }
+    ],
+    "collapsed": false
+  },
+  {
+    "id": "webprojects7dxesolozlki7br7a",
+    "groupName": "web projects",
+    "projects": [
+      {
+        "isGitRepo": true,
+        "id": "amereyq0tklp1tylki7ce8g",
+        "name": "amerey",
+        "path": "/home/owner/Dokumenty/web/amerey",
+        "color": "#BA7F03"
+      },
+      {
+        "isGitRepo": true,
+        "id": "bertycky6fceuwmuxlki7csx4",
+        "name": "bertycky",
+        "path": "/home/owner/Dokumenty/web/bertycky",
+        "color": "#FF6B53"
+      },
+      {
+        "isGitRepo": false,
+        "id": "dolnidvuryaa04rtqjlki7dlou",
+        "name": "dolni dvur",
+        "path": "/home/owner/Dokumenty/web/dolnidvur",
+        "color": "#20208D"
+      },
+      {
+        "isGitRepo": false,
+        "id": "pugptoga6ai2lki7dzlp",
+        "name": "pug/gulp",
+        "path": "/home/owner/Dokumenty/web/pug",
+        "color": "#FFF9E6"
+      },
+      {
+        "isGitRepo": false,
+        "id": "recipe3bdzmhb73lki7elbq",
+        "name": "recipe",
+        "path": "/home/owner/Dokumenty/web/recipe",
+        "color": "#FFDDCF"
+      },
+      {
+        "isGitRepo": false,
+        "id": "doj3xiegnl9zlki7fc2j",
+        "name": "doj",
+        "path": "/home/owner/Dokumenty/web/doj",
+        "color": "#00581A"
+      },
+      {
+        "isGitRepo": false,
+        "id": "wptech1cycqkuq1lki7g5x0",
+        "name": "wptech",
+        "path": "/home/owner/Dokumenty/web/react-tech",
+        "color": "#FFDB58"
+      },
+      {
+        "isGitRepo": true,
+        "id": "wpreactdemofwquh78lfll0w4tex",
+        "name": "wp/react demo",
+        "path": "/home/owner/Dokumenty/web/react-wp-demo",
+        "color": "#327DA0"
+      },
+      {
+        "isGitRepo": false,
+        "id": "onlineh9rfhmfdulm0ngkuz",
+        "name": "online",
+        "path": "/home/owner/Dokumenty/web/online",
+        "color": "#83D0C6"
+      },
+      {
+        "isGitRepo": false,
+        "id": "kurzyuphveb8xt10ln7k1870",
+        "name": "kurzyup",
+        "path": "/home/owner/Dokumenty/web/kurzyup",
+        "color": "#B8B56A"
+      },
+      {
+        "isGitRepo": true,
+        "id": "next13wp7c5hsz659lnms8jh2",
+        "name": "next13wp",
+        "path": "/home/owner/Dokumenty/web/next13-wp",
+        "color": "#DA70D6"
+      }
+    ],
+    "collapsed": false
+  },
+  {
+    "id": "pluginsandthemesdpmf78va3lki76zea",
+    "groupName": "plugins and themes",
+    "projects": [
+      {
+        "isGitRepo": true,
+        "id": "blackthemesfrdsh0qulki78pvn",
+        "name": "black++ theme",
+        "path": "/home/owner/Dokumenty/plugins/black",
+        "color": "#A3E3ED"
+      },
+      {
+        "isGitRepo": true,
+        "id": "markdownemojiei89xt83klki79f4m",
+        "name": "markdown-emoji",
+        "path": "/home/owner/Dokumenty/plugins/markdown-emoji",
+        "color": "#6E1D14"
+      },
+      {
+        "isGitRepo": true,
+        "id": "markdownsnippets6n04yuvhdlki79y27",
+        "name": "markdown-snippets",
+        "path": "/home/owner/Dokumenty/plugins/markdown-snippets",
+        "color": "#928590"
+      },
+      {
+        "isGitRepo": true,
+        "id": "bludittd1w0q0dnlki7l8ek",
+        "name": "bludit black theme",
+        "path": "/home/owner/Dokumenty/web/bludit/bl-themes/black",
+        "color": "#C9B29B"
+      }
+    ],
+    "collapsed": true
+  },
+  {
+    "id": "settings8x5mcbw32ll3yf7fa",
+    "groupName": "settings",
+    "projects": [
+      {
+        "isGitRepo": false,
+        "id": "settingsjsonvstp5n0gulknsy5p0",
+        "name": "settings.json",
+        "path": "/home/owner/.config/VSCodium/User/settings.json",
+        "color": "var(--vscode-gitDecoration-deletedResourceForeground)"
+      },
+      {
+        "isGitRepo": false,
+        "id": "vimrc55wpu32yxlknsbtpk",
+        "name": ".vimrc",
+        "path": "/home/owner/.vimrc",
+        "color": "var(--vscode-gitDecoration-untrackedResourceForeground)"
+      }
+    ],
+    "collapsed": false
+  }
+]
+
 
