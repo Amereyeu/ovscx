@@ -1,6 +1,7 @@
 {
   "auto-close-tag.insertSpaceBeforeSelfClosingTag": true,
   "auto-close-tag.SublimeText3Mode": true,
+  "breadcrumbs.enabled": false,
   "color-highlight.languages": ["*"],
   "color-highlight.markerType": "underline",
   "color-highlight.markRuler": false,
@@ -18,7 +19,7 @@
   "editor.detectIndentation": false,
   "editor.fontFamily": "'JetBrains Mono','Fira Code', monospace",
   "editor.fontLigatures": true,
-  "editor.fontSize": 18,
+  "editor.fontSize": 16,
   "editor.fontWeight": "400",
   "editor.formatOnPaste": true,
   "editor.formatOnSave": true,
@@ -32,6 +33,8 @@
   "editor.minimap.maxColumn": 200,
   "editor.minimap.renderCharacters": false,
   "editor.minimap.showSlider": "always",
+  "editor.renderControlCharacters": false,
+  "editor.renderWhitespace": "none",
   "editor.smoothScrolling": true,
   "editor.snippetSuggestions": "top",
   "editor.stickyScroll.enabled": true,
@@ -57,6 +60,8 @@
   "material-icon-theme.files.color": "#ffffff",
   "material-icon-theme.folders.color": "#ffffff",
   "material-icon-theme.saturation": 0,
+  "MinifyAll.disableJavascriptReact": false,
+  "notebook.showFoldingControls": "always",
   "php.validate.executablePath": "/usr/share/libgda-5.0/php",
   "prettier.bracketSameLine": true,
   "prettier.endOfLine": "crlf",
@@ -77,7 +82,7 @@
   "terminal.integrated.fontSize": 16,
   "terminal.integrated.fontWeight": "normal",
   "todo-tree.general.showIconsInsteadOfTagsInStatusBar": true,
-  "todo-tree.general.statusBar": "current file",
+  "todo-tree.general.statusBar": "total",
   "todo-tree.general.statusBarClickBehaviour": "cycle",
   "todo-tree.regex.regex": "(//||#|<!--|;|//-|/\\*|^|^\\s*(-|\\d+.))\\s*($TAGS).*(\\n\\s*//\\s{2,}.*)*",
   "typescript.updateImportsOnFileMove.enabled": "always",
@@ -87,8 +92,8 @@
   "vim.hlsearch": true,
   "vim.ignorecase": true,
   "vim.leader": "<Space>",
-  // "vim.searchHighlightColor": "#D6AD60",
-  // "vim.searchHighlightTextColor": "#000",
+  "vim.searchHighlightColor": "#0bd3d4",
+  "vim.searchHighlightTextColor": "#fff",
   "vim.mouseSelectionGoesIntoVisualMode": false,
   "vim.showMarksInGutter": true,
   "vim.smartRelativeLine": true,
@@ -108,12 +113,15 @@
   "vim.useSystemClipboard": true,
   "vim.vimrc.enable": true,
   "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "window.menuBarVisibility": "toggle",
   "window.title": "${dirty} ${activeEditorMedium}${separator}${rootName}",
+  "window.zoomLevel": 1,
   "workbench.colorTheme": "Black++ Nord Stream",
   "workbench.enableExperiments": false,
   "workbench.iconTheme": "material-icon-theme",
   "workbench.productIconTheme": "icons-carbon",
   "workbench.settings.enableNaturalLanguageSearch": false,
+  "workbench.sideBar.location": "right",
   "workbench.startupEditor": "none",
   "workbench.tree.indent": 20,
   "workbench.tree.renderIndentGuides": "always",
@@ -162,7 +170,8 @@
     "**/.vscode/**",
     "**/.github/**",
     "**/*.min.*",
-    "**/*.map"
+    "**/*.map",
+    "**/*.yaml"
   ],
   "todo-tree.highlights.defaultHighlight": {
     "background": "#ffffff",
@@ -250,6 +259,24 @@
   },
   "[typescriptreact]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
-  }
+  },
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": ["<Leader>", "u"],
+      "commands": ["workbench.action.showCommands"]
+    },
+    {
+      "before": ["<Leader>", "f"],
+      "commands": ["workbench.action.quickOpen"]
+    },
+    {
+      "before": ["<Leader>", "t"],
+      "commands": ["workbench.action.gotoSymbol"]
+    },
+    {
+      "before": ["<Leader>", "n"],
+      "commands": ["extension.advancedNewFile"]
+    }
+  ]
 }
 
