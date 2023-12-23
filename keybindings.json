@@ -87,20 +87,49 @@
     "command": "editor.action.clipboardPasteAction"
   },
   {
-    "key": "space e",
-    "command": "workbench.action.focusSideBar"
+    "key": "alt+x",
+    "command": "extension.vim_ctrl+x",
+    "when": "editorTextFocus && vim.active && vim.use<C-x> && !inDebugRepl"
   },
   {
-    "key": "ctrl+0",
-    "command": "-workbench.action.focusSideBar"
+    "key": "ctrl+x",
+    "command": "-extension.vim_ctrl+x",
+    "when": "editorTextFocus && vim.active && vim.use<C-x> && !inDebugRepl"
   },
   {
-    "key": "space f",
+    "key": "alt+c",
+    "command": "extension.vim_ctrl+a",
+    "when": "editorTextFocus && vim.active && vim.use<C-a> && !inDebugRepl"
+  },
+  {
+    "key": "ctrl+a",
+    "command": "-extension.vim_ctrl+a",
+    "when": "editorTextFocus && vim.active && vim.use<C-a> && !inDebugRepl"
+  },
+  {
+    "key": "ctrl+p",
     "command": "workbench.action.quickOpen"
   },
   {
     "key": "ctrl+e",
     "command": "-workbench.action.quickOpen"
-  }
+  },
+  {
+    "key": "ctrl+alt+f",
+    "command": "editor.fold",
+    "when": "editorTextFocus && foldingEnabled"
+  },
+  {
+    "key": "ctrl+alt+j",
+    "command": "workbench.action.toggleActivityBarVisibility"
+  },
+  {
+    "key": "ctrl+alt+k",
+    "command": "workbench.action.toggleSidebarVisibility"
+  },
+  {
+    "key": "ctrl+b",
+    "command": "-workbench.action.toggleSidebarVisibility"
+  },
 ]
 
