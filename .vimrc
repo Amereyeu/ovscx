@@ -27,11 +27,11 @@ nnoremap <S-TAB> :tabp<CR>
 " close tab
 nnoremap <Leader>c :tabc<CR>
 " create new tab
-nnoremap <Leader>f :tabnew<CR>
-" switch to file explorer on side
-nnoremap <Leader>e <C-w>h
-
-
+" nnoremap <Leader>f :tabnew<CR>
+" switch to file explorer on right
+nnoremap <Leader>e <C-w>l    
+" switch to file explorer on left
+nnoremap <Leader>r <C-w>h    
 
 
 
