@@ -32,6 +32,8 @@ nnoremap <Leader>c :tabc<CR>
 nnoremap <Leader>e <C-w>l    
 " switch to file explorer on left
 nnoremap <Leader>r <C-w>h    
+" clear highlighted text
+nnoremap <esc> :nohl<return><esc>
 
 
 
