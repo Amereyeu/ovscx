@@ -233,7 +233,7 @@
     }
   },
   "[astro]": {
-    "editor.defaultFormatter": "astro-build.astro-vscode"
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[css]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
@@ -285,6 +285,17 @@
     {
       "before": ["<Leader>", "n"],
       "commands": ["extension.advancedNewFile"]
+    },
+    {
+      "before": ["<Leader>", "o"],
+      "commands": [
+        "workbench.action.toggleSidebarVisibility",
+        "workbench.action.toggleActivityBarVisibility"
+      ]
+    },
+    {
+      "before": ["<Leader>", "e"],
+      "commands": ["workbench.action.focusSideBar"]
     }
   ]
 }
