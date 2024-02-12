@@ -9,12 +9,7 @@
 "               
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""    
 
-" comment out block          
-nnoremap <Leader>b gcaB     
 
-" switch tabs
-nnoremap <TAB> :tabn<CR>  
-nnoremap <S-TAB> :tabp<CR>
 
 " close tab
 nnoremap <Leader>c :tabc<CR>
