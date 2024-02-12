@@ -296,6 +296,18 @@
     {
       "before": ["<Leader>", "e"],
       "commands": ["workbench.action.focusSideBar"]
+    },
+    {
+      "before": ["<tab>"],
+      "commands": ["workbench.action.nextEditor"]
+    },
+    {
+      "before": ["<S-tab>"],
+      "commands": ["workbench.action.previousEditor"]
+    },
+    {
+      "before": ["<Leader>", "c"],
+      "commands": ["workbench.action.closeActiveEditor"]
     }
   ]
 }
