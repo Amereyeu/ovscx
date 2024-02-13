@@ -66,11 +66,11 @@
     "when": "editorTextFocus && vim.active && !inDebugRepl"
   },
   {
-    "key": "shift+alt+j",
+    "key": "ctrl+j",
     "command": "editor.action.moveLinesDownAction"
   },
   {
-    "key": "shift+alt+k",
+    "key": "ctrl+k",
     "command": "editor.action.moveLinesUpAction",
     "when": "editorTextFocus && !editorReadonly"
   },
@@ -229,5 +229,4 @@
     "when": "inQuickOpen"
   }
 ]
-
 
