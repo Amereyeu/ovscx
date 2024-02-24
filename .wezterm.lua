@@ -7,18 +7,14 @@ local config = wezterm.config_builder()
 
 -- config.color_scheme = 'Black Metal (Dark Funeral) (base16)'
 -- config.color_scheme = 'Nord (base16)'
-
+-- config.window_decorations = "RESIZE"
+-- config.enable_scroll_bar = false
 config.font_size = 14.0
 config.default_cursor_style = 'BlinkingBar'
 config.cursor_blink_rate = 500
 config.scrollback_lines = 5000
 config.hide_mouse_cursor_when_typing = false
 
-
-
-
--- config.window_decorations = "RESIZE"
--- config.enable_scroll_bar = false
 
 
 -- tab bar
@@ -53,9 +49,14 @@ config.window_padding = {
 
 
 
-
-
-
+-- keyboard shortcuts
+config.keys = {
+  {
+    key = 'q',
+    mods = 'CTRL',
+    action = wezterm.action.CloseCurrentPane { confirm = false },
+  },
+}
 
 
 
