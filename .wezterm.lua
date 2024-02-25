@@ -1,4 +1,4 @@
--- Pull in the wezterm API
+-- wezterm API
 local wezterm = require 'wezterm'
 local mux = wezterm.mux
 local config = wezterm.config_builder()
@@ -8,7 +8,7 @@ local config = wezterm.config_builder()
 -- config.color_scheme = 'Black Metal (Dark Funeral) (base16)'
 -- config.color_scheme = 'Nord (base16)'
 -- config.window_decorations = "RESIZE"
--- config.enable_scroll_bar = false
+config.enable_scroll_bar = false
 config.font_size = 14.0
 config.default_cursor_style = 'BlinkingBar'
 config.cursor_blink_rate = 500
@@ -41,8 +41,8 @@ config.inactive_pane_hsb = {
   brightness = 1,
 }
 config.window_padding = {
-  left = 100,
-  right = 100,
+  left = 10,
+  right = 10,
   top = 50,
   bottom = 50,
 }
