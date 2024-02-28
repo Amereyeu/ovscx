@@ -5,7 +5,8 @@ local config = wezterm.config_builder()
 
 
 
--- config.color_scheme = 'Nord (base16)'
+-- config.color_scheme = 'Elio (Gogh)'
+-- config.color_scheme = 'Frontend Galaxy (Gogh)'
 -- config.window_decorations = "RESIZE"
 config.enable_scroll_bar = false
 config.font_size = 14.0
@@ -14,6 +15,15 @@ config.cursor_thickness = 4
 config.cursor_blink_rate = 800
 config.scrollback_lines = 5000
 config.hide_mouse_cursor_when_typing = false
+config.color_scheme = 'Cobalt2'
+
+
+
+config.colors = {
+  background = "black",
+  selection_fg = 'black',
+  selection_bg = '#fffacd',
+}
 
 
 
