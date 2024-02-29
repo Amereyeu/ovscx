@@ -120,14 +120,6 @@
     "when": "editorTextFocus && foldingEnabled"
   },
   {
-    "key": "ctrl+alt+j",
-    "command": "workbench.action.toggleActivityBarVisibility"
-  },
-  {
-    "key": "ctrl+alt+k",
-    "command": "workbench.action.toggleSidebarVisibility"
-  },
-  {
     "key": "ctrl+b",
     "command": "-workbench.action.toggleSidebarVisibility"
   },
@@ -203,7 +195,7 @@
     "when": "explorerViewletFocus && explorerViewletVisible && !inputFocus"
   },
   {
-    "key": "e",
+    "key": "ctrl+e",
     "command": "workbench.view.explorer",
     "when": "explorerViewletFocus && explorerViewletVisible && viewContainer.workbench.view.explorer.enabled"
   },
@@ -227,6 +219,44 @@
     "key": "ctrl+k",
     "command": "workbench.action.quickOpenSelectPrevious",
     "when": "inQuickOpen"
+  },
+  // activity bar
+  {
+    "key": "ctrl+f1",
+    "command": "workbench.view.explorer",
+    "when": "viewContainer.workbench.view.explorer.enabled"
+  },
+  {
+    "key": "ctrl+f2",
+    "command": "workbench.action.findInFiles"
+  },
+  {
+    "key": "ctrl+f3",
+    "command": "workbench.view.extensions",
+    "when": "viewContainer.workbench.view.extensions.enabled"
+  },
+  {
+    "key": "ctrl+f4",
+    "command": "dashboard.open"
+  },
+  {
+    "key": "ctrl+f5",
+    "command": "workbench.view.extension.todo-tree-container"
+  },
+  {
+    "key": "ctrl+f6",
+    "command": "snippetExplorer.open"
+  },
+  // activity bar and side bar
+  {
+    "key": "ctrl+alt+j",
+    "command": "workbench.action.toggleActivityBarVisibility"
+  },
+  {
+    "key": "ctrl+alt+k",
+    "command": "workbench.action.toggleSidebarVisibility"
   }
 ]
+
+
 
