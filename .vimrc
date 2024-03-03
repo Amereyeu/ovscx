@@ -1,9 +1,5 @@
 version 6.0
 
-
-
-
-
 if &cp | set nocp | endif
 let s:cpo_save=&cpo
 set cpo&vim
