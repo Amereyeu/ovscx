@@ -109,23 +109,24 @@
   "vim.smartRelativeLine": true,
   "vim.statusBarColorControl": true,
   "vim.statusBarColors.commandlineinprogress": ["#12abe3", "#000000"],
-  "vim.statusBarColors.easymotioninputmode": ["#12abe3", "#000000"],
-  "vim.statusBarColors.easymotionmode": ["#12abe3", "#000000"],
+  "vim.statusBarColors.easymotioninputmode": ["#0bd3d4", "#000000"],
+  "vim.statusBarColors.easymotionmode": ["#0bd3d4", "#000000"],
   "vim.statusBarColors.insert": ["#D8DEE9", "#000000"],
   "vim.statusBarColors.normal": ["#000000", "#fbfbfb"],
   "vim.statusBarColors.replace": ["#89c0d0", "#000000"],
   "vim.statusBarColors.searchinprogressmode": ["#12abe3", "#000000"],
-  "vim.statusBarColors.surroundinputmode": ["#12abe3", "#000000"],
+  "vim.statusBarColors.surroundinputmode": ["#ffc4eb", "#000000"],
   "vim.statusBarColors.visual": ["#D6AD60", "#000000"],
   "vim.statusBarColors.visualblock": ["#D6AD60", "#000000"],
   "vim.statusBarColors.visualline": ["#D6AD60", "#000000"],
   "vim.useCtrlKeys": true,
   "vim.useSystemClipboard": true,
-  "vim.vimrc.enable": true,
   "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "window.commandCenter": false,
   "window.menuBarVisibility": "toggle",
   "window.title": "${dirty} ${activeEditorMedium}${separator}${rootName}",
   "window.zoomLevel": 1,
+  "workbench.activityBar.location": "top",
   "workbench.colorTheme": "B2",
   "workbench.enableExperiments": false,
   "workbench.iconTheme": "material-icon-theme",
@@ -138,11 +139,11 @@
   "workbench.colorCustomizations": {
     "terminal.background": "#000",
     "terminal.foreground": "#fff",
-    "statusBar.background": "#000000",
-    "statusBar.noFolderBackground": "#000000",
-    "statusBar.debuggingBackground": "#000000",
-    "statusBar.foreground": "#fbfbfb",
-    "statusBar.debuggingForeground": "#fbfbfb"
+    "statusBar.background": "#D8DEE9",
+    "statusBar.noFolderBackground": "#D8DEE9",
+    "statusBar.debuggingBackground": "#D8DEE9",
+    "statusBar.foreground": "#000000",
+    "statusBar.debuggingForeground": "#000000"
   },
   "emmet.includeLanguages": {
     "twig": "html",
@@ -312,4 +313,8 @@
     }
   ]
 }
+
+
+
+
 
