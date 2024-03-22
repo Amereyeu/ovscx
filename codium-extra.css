@@ -108,6 +108,92 @@ div#workbench\.parts\.sidebar {
   height: 200px;
 }
 
+/* file, symbols popup window  */
+.quick-input-widget {
+  width: 70% !important;
+  margin-top: 250px;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  left: 10%;
+  border-radius: 0;
+  background: #000 !important;
+  border: 1px solid #ddd !important;
+  box-shadow: 0 0 0 2px #8fbcbb !important;
+}
+
+/* text input box */
+.monaco-inputbox > .ibwrapper > .input {
+  font-size: 18px;
+  font-family: "JetBrains Mono";
+  border-bottom: 1px solid #fff;
+}
+
+.monaco-findInput .monaco-inputbox {
+  width: 100%;
+}
+
+/* input field :focus */
+.monaco-workbench .synthetic-focus,
+/* .monaco-workbench [tabindex="-1"]:focus, */
+.monaco-workbench button:focus,
+.monaco-workbench input[type="button"]:focus,
+.monaco-workbench input[type="checkbox"]:focus,
+.monaco-workbench input[type="search"]:focus,
+.monaco-workbench input[type="text"]:focus,
+.monaco-workbench select:focus,
+.monaco-workbench textarea:focus {
+  outline: none;
+  border-bottom: 2px solid #8fbcbb;
+  padding: 1px;
+}
+
+/* scrollable list in window */
+.quick-input-list .monaco-scrollable-element {
+  font-size: 15px;
+  font-family: "JetBrains Mono";
+}
+
+/* scrollable list */
+.monaco-list > .monaco-scrollable-element {
+  font-family: "JetBrains Mono";
+}
+
+/* container for main window and status bar */
+.monaco-split-view2 > .monaco-scrollable-element > .split-view-container {
+  display: grid;
+}
+
+/* main window position */
+.split-view-view:nth-of-type(3) {
+  top: 22px !important;
+}
+
+/* status bar position */
+.split-view-view:nth-of-type(4) {
+  top: 0px !important;
+}
+
+/* sidebar position */
+div#workbench\.parts\.sidebar {
+  margin-top: -22px;
+}
+
+/* font size in status bar */
+.monaco-workbench .part.statusbar {
+  font-size: 16px;
+}
+
+/* container for background image on main page  */
+.monaco-workbench
+  .part.editor
+  > .content
+  .editor-group-container
+  > .editor-group-watermark {
+  max-width: none;
+  justify-content: center;
+  align-items: center;
+}
+
 /* font color on main page */
 .monaco-workbench
   .part.editor
@@ -163,18 +249,31 @@ div#workbench\.parts\.sidebar {
   bottom: 0;
 }
 
+/* notification list */
+.monaco-workbench .notifications-list-container {
+  background: transparent !important;
+}
+
+/* background for scrollable list */
+.monaco-list-rows {
+  background: transparent !important;
+}
+
 /* item in notification center */
 .notifications-list-container .monaco-list-row {
   border: 1px solid #fff;
+  height: auto !important;
+  background: #000 !important;
+}
+
+.monaco-drag-image,
+.monaco-list.list_id_4:focus .monaco-list-row.focused {
+  outline: none;
 }
 
 /* notification item open */
 .monaco-workbench .notifications-list-container .notification-list-item {
   height: auto;
-}
-
-.notification-list-item.expanded {
-  margin-top: 4px;
 }
 
 /* text in notification item */
@@ -216,5 +315,3 @@ div#workbench\.parts\.sidebar {
 .monaco-workbench .part > .content {
   font-size: 15px;
 }
-
-
