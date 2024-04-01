@@ -1,21 +1,21 @@
 {
   "arrow function": {
-    "prefix": "js-arrow function",
+    "prefix": "js-arrow-function",
+    "description": "Arrow Function",
     "body": [
-      "($1) => {", 
-      "  $2", 
-      "}", 
-      "$0", 
+      "($1) => {",
+      "  $2",
+      "}",
+      "$0",
       ""
     ],
-    "description": "Arrow Function"
   },
-  "dom": {
-    "prefix": "js-react router",
+  "react-dom": {
+    "prefix": "react-browser-router",
+    "description": "React Router Import",
     "body": [
       "import { BrowserRouter as Router, Switch, Route  } from 'react-router-dom';"
     ],
-    "description": "React Router Import"
   },
   "react-footer": {
     "prefix": "react-footer",
@@ -47,11 +47,36 @@
   },
   "backtics": {
     "prefix": "js-backtics",
+    "description": "JS Backticks",
     "body": [
       "`$1 ${$2} $3`$0"
     ],
-    "description": "JS Backticks"
+  },
+  "react-comment": {
+    "prefix": "react-comment",
+    "description": "comment in react",
+    "body": [
+      "/*********************************************",
+      " * $1",
+      " *********************************************/",
+      "",
+      "$0",
+      ""
+    ]
+  },
+  "react-classname": {
+    "prefix": "react-conditional-classname",
+    "description": "conditional classname in react",
+    "body": [
+      "{`$4 \\${ $1 ? \"$2\" : \"$3\"}`} $0",
+    ]
+  },
+  "react-src": {
+    "prefix": "react-src",
+    "description": "src in react",
+    "body": [
+      "{`$1/${$2}`} $0",
+    ]
   }
 }
-
 
