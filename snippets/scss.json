@@ -1,18 +1,24 @@
 {
   "border red": {
     "prefix": "br",
-    "body": ["border: 1px solid red;"],
-    "description": "border red - test"
+    "description": "border red - test",
+    "body": [
+      "border: 1px solid red;"
+    ],
   },
   "border blue": {
     "prefix": "brb",
-    "body": ["border: 1px solid blue;"],
-    "description": "border blue - test"
+    "description": "border blue - test",
+    "body": [
+      "border: 1px solid blue;"
+    ],
   },
   "border green": {
     "prefix": "brg",
-    "body": ["border: 1px solid green;"],
-    "description": "border green - test"
+    "description": "border green - test",
+    "body": [
+      "border: 1px solid green;"
+    ],
   },
   "media queries": {
     "prefix": "mm",
@@ -79,14 +85,36 @@
   },
   "comment": {
     "prefix": "comment",
-    "description": "scss comment ",
+    "description": "scss comment",
     "body": [
-      "// ",
-      "// $1",
-      "//",
+      "/*********************************************",
+      " * $1",
+      " *********************************************/",
       "$0",
       ""
     ]
-  }
+  },
+  "container queries selector": {
+    "prefix": "ccs",
+    "description": "Container Queries selector",
+    "body": [
+      "@container ${1:container-name} (${2|min-width,max-width|}: ${3:container-width}) {",
+      "  $0",
+      "}",
+      ""
+    ]
+  },
+  "container queries type": {
+    "prefix": "cct",
+    "description": "Container Queries type",
+    "body": [
+      "container-type: ${1|inline-size,size|};",
+      "container-name: ${2:container-name};",
+      "$0",
+    ]
+  },
 }
+
+
+
 
