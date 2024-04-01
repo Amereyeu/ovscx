@@ -2,28 +2,53 @@
   "border red": {
     "prefix": "br",
     "description": "border red - test",
-    "body": ["border: 1px solid red;", ""]
+    "body": [
+      "border: 1px solid red;",
+      ""
+    ]
   },
   "border blue": {
     "prefix": "brb",
-    "body": ["border: 1px solid blue;"],
+    "body": [
+      "border: 1px solid blue;"
+    ],
     "description": "border blue - test"
   },
   "border green": {
     "prefix": "brg",
-    "body": ["border: 1px solid green;"],
+    "body": [
+      "border: 1px solid green;"
+    ],
     "description": "border green - test"
   },
   "comment": {
     "prefix": "comment",
-    "description": "css comment ",
+    "description": "css comment",
     "body": [
-      "// ",
-      "// $1",
-      "//",
+      "/*********************************************",
+      " * $1",
+      " *********************************************/",
       "$0",
       ""
     ]
-  }
+  },
+  "container queries selector": {
+    "prefix": "ccs",
+    "description": "Container Queries selector",
+    "body": [
+      "@container ${1:container-name} (${2|min-width,max-width|}: ${3:container-width}) {",
+      "  $0",
+      "}",
+      ""
+    ]
+  },
+  "container queries type": {
+    "prefix": "cct",
+    "description": "Container Queries type",
+    "body": [
+      "container-type: ${1|inline-size,size|};",
+      "container-name: ${2:container-name};",
+      "$0",
+    ]
+  },
 }
-
