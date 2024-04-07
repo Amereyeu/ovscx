@@ -98,7 +98,7 @@
     "prefix": "ccs",
     "description": "Container Queries selector",
     "body": [
-      "@container ${1:container-name} (${2|min-width,max-width|}: ${3:container-width}) {",
+      "@container ${1:container-name} (${2|min-width,max-width|}: ${3:container-width}px) {",
       "  $0",
       "}",
       ""
@@ -108,12 +108,18 @@
     "prefix": "cct",
     "description": "Container Queries type",
     "body": [
-      "container-type: ${1|inline-size,size|};",
-      "container-name: ${2:container-name};",
+      "container-type: ${1:container-name} / ${2|inline-size,size|};",
       "$0",
     ]
   },
 }
+
+
+
+
+
+   
+        
 
 
 
