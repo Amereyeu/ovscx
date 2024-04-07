@@ -3,27 +3,89 @@
     "prefix": "br",
     "description": "border red - test",
     "body": [
-      "border: 1px solid red;",
-      ""
-    ]
+      "border: 1px solid red;"
+    ],
   },
   "border blue": {
     "prefix": "brb",
+    "description": "border blue - test",
     "body": [
       "border: 1px solid blue;"
     ],
-    "description": "border blue - test"
   },
   "border green": {
     "prefix": "brg",
+    "description": "border green - test",
     "body": [
       "border: 1px solid green;"
     ],
-    "description": "border green - test"
+  },
+  "media queries": {
+    "prefix": "mm",
+    "description": "Media Queries selector",
+    "body": [
+      "@include break(${1|$medium,$large,$xlarge,$small|}) {",
+      "  $0",
+      "}",
+      ""
+    ]
+  },
+  "grid autofill": {
+    "prefix": "gr-autofill",
+    "description": "grid - autofill",
+    "body": [
+      "grid-template-columns: repeat(auto-fill, minmax(${1:200px}, 1fr));$0",
+      ""
+    ]
+  },
+  "grid autofit": {
+    "prefix": "gr-autofit",
+    "description": "grid - autofit",
+    "body": [
+      "grid-template-columns: repeat(auto-fit, minmax(${1:200px}, 1fr));$0",
+      ""
+    ]
+  },
+  "svg footer": {
+    "prefix": "svg-footer",
+    "description": "footer with svg",
+    "body": [
+      ".footer {",
+      "  padding: 2rem;",
+      "  display: flex;",
+      "  flex-direction: column;",
+      "  align-items: center;",
+      "  background: \\$color-primary;",
+      "",
+      "  &__logo {",
+      "    height: 100px;",
+      "    margin: 0 auto;",
+      "    fill: \\$color-secondary;",
+      "  }",
+      "",
+      "  &__copyright p {",
+      "    font-size: 0.9rem;",
+      "    margin-top: 1rem;",
+      "    text-align: center;",
+      "  }",
+      "}",
+      ""
+    ]
+  },
+  "fixed div": {
+    "prefix": "fixed-div",
+    "description": "Centered fixed div vertically and horizontally",
+    "body": [
+      "position: fixed;",
+      "top: 50%;",
+      "left: 50%;",
+      "transform: translate(-50%, -50%);",
+      ""
+    ]
   },
   "comment": {
     "prefix": "comment",
-    "description": "css comment",
+    "description": "scss comment",
     "body": [
       "/*********************************************",
       " * $1",
@@ -36,7 +98,7 @@
     "prefix": "ccs",
     "description": "Container Queries selector",
     "body": [
-      "@container ${1:container-name} (${2|min-width,max-width|}: ${3:container-width}) {",
+      "@container ${1:container-name} (${2|min-width,max-width|}: ${3:container-width}px) {",
       "  $0",
       "}",
       ""
@@ -46,9 +108,17 @@
     "prefix": "cct",
     "description": "Container Queries type",
     "body": [
-      "container-type: ${1|inline-size,size|};",
-      "container-name: ${2:container-name};",
+      "container-type: ${1:container-name} / ${2|inline-size,size|};",
       "$0",
     ]
   },
 }
+
+
+
+
+
+   
+        
+
+
