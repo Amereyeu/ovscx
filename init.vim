@@ -53,9 +53,6 @@ colorscheme tokyonight-night
 
 let mapleader = " "
 nmap <leader>e :NERDTreeToggle<CR>
-
-
-
 nmap <F8> :TagbarToggle<CR>
 
 
