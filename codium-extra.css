@@ -315,3 +315,30 @@ div#workbench\.parts\.sidebar {
 .monaco-workbench .part > .content {
   font-size: 15px;
 }
+
+/* git colors*/
+.monaco-workbench {
+  --vscode-gitDecoration-modifiedResourceForeground: #8ee1e1 !important;
+  --vscode-gitDecoration-untrackedResourceForeground: #89d185 !important;
+  --vscode-gitDecoration-ignoredResourceForeground: #8c8c8c !important;
+  /* background: #16161f !important; */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
