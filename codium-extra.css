@@ -326,6 +326,27 @@ div#workbench\.parts\.sidebar {
 
 
 
+.monaco-workbench .monaco-list:not(.element-focused):focus:before {
+  outline: none !important;
+}
+
+/* bell icon next to prettier in statusbar  */
+span.codicon.codicon-bell {
+  margin-top: 8px !important;
+}
+
+/* statusbar focus */
+.monaco-workbench .part.statusbar:focus {
+  outline-color: #fbfbfb00 !important;
+}
+
+/* topbar menu - custom title bar */
+.monaco-workbench .part.titlebar > .titlebar-container {
+  top: calc(100vh - 28px);
+  position: absolute;
+  background: #16161f;
+}
+
 
 
 
