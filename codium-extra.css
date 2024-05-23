@@ -348,6 +348,89 @@ span.codicon.codicon-bell {
 }
 
 
+/* main page - custom shortcuts */
+.watermark-box dl:nth-of-type(2) dt {
+  position: relative;
+  visibility: hidden;
+}
+
+.watermark-box dl:nth-of-type(2) dt:before {
+  position: absolute;
+  content: "Open File";
+  width: 200px;
+  height: 20px;
+  visibility: visible;
+  right: 0;
+}
+
+.watermark-box dl:nth-of-type(3) dt {
+  position: relative;
+  visibility: hidden;
+}
+
+.watermark-box dl:nth-of-type(3) dt:before {
+  position: absolute;
+  content: "Toggle Right Panel";
+  width: 200px;
+  height: 20px;
+  visibility: visible;
+  right: 0;
+}
+
+.watermark-box dl:nth-of-type(3) dd {
+  position: relative;
+  visibility: hidden;
+}
+
+.watermark-box dl:nth-of-type(3) dd:before {
+  position: absolute;
+  content: "CTRL + Alt + K";
+  width: 170px;
+  height: 20px;
+  visibility: visible;
+  left: 0;
+  font-size: 11px;
+  color: #fff;
+  width: 150px;
+  margin-left: 5px;
+}
+
+.watermark-box dl:nth-of-type(4) dt {
+  position: relative;
+  visibility: hidden;
+}
+
+.watermark-box dl:nth-of-type(4) dt:before {
+  position: absolute;
+  content: "Show Menu Bar";
+  width: 200px;
+  height: 20px;
+  visibility: visible;
+  right: 0;
+}
+
+.watermark-box dl:nth-of-type(4) dd {
+  position: relative;
+  visibility: hidden;
+}
+
+.watermark-box dl:nth-of-type(4) dd:before {
+  position: absolute;
+  content: "Alt";
+  width: 170px;
+  height: 20px;
+  visibility: visible;
+  left: 0;
+  font-size: 11px;
+  color: #fff;
+  width: 150px;
+  margin-left: 5px;
+}
+
+.watermark-box dl:nth-of-type(5) dt,
+.watermark-box dl:nth-of-type(5) dd {
+  display: none !important;
+}
 
 
 
