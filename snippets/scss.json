@@ -112,6 +112,24 @@
       "$0",
     ]
   },
+  "scss sublevel": {
+    "prefix": "ss",
+    "description": "SCSS sublevel",
+    "body": [
+      "&__$1 {",
+      "  $0",
+      "}",
+    ]
+  },
+  "scss sublevel option": {
+    "prefix": "sss",
+    "description": "SCSS sublevel option",
+    "body": [
+      "&:$1 {",
+      "  $0",
+      "}",
+    ]
+  },
 }
 
 
