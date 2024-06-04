@@ -33,7 +33,7 @@ Plug 'https://github.com/neoclide/coc.nvim'
 Plug 'https://github.com/ryanoasis/vim-devicons' 
 Plug 'https://github.com/tc50cal/vim-terminal' 
 Plug 'https://github.com/preservim/tagbar' 
-Plug 'https://github.com/terryma/vim-multiple-cursors' " CTRL + N for multiple cursors
+Plug 'https://github.com/terryma/vim-multiple-cursors'
 Plug 'catppuccin/nvim', { 'as': 'catppuccin' }
 Plug 'https://github.com/folke/tokyonight.nvim'
 Plug 'https://github.com/nvimdev/dashboard-nvim' 
