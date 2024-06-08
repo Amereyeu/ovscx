@@ -1,4 +1,3 @@
-
 -- wezterm API
 local wezterm = require 'wezterm'
 local mux = wezterm.mux
@@ -6,9 +5,6 @@ local config = wezterm.config_builder()
 
 
 
--- config.color_scheme = 'Elio (Gogh)'
--- config.color_scheme = 'Frontend Galaxy (Gogh)'
--- config.window_decorations = "RESIZE"
 config.enable_scroll_bar = false
 config.font_size = 14.0
 config.default_cursor_style = 'BlinkingBar'
