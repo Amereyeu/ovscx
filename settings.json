@@ -319,7 +319,6 @@
       "before": ["<Leader>", "o"],
       "commands": [
         "workbench.action.toggleSidebarVisibility"
-        // "workbench.action.toggleActivityBarVisibility"
       ]
     },
     {
