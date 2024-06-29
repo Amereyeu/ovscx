@@ -21,7 +21,7 @@
   "editor.detectIndentation": false,
   "editor.fontFamily": "'JetBrains Mono','Fira Code', monospace",
   "editor.fontLigatures": true,
-  "editor.fontSize": 16,
+  "editor.fontSize": 18,
   "editor.fontWeight": "400",
   "editor.formatOnPaste": true,
   "editor.formatOnSave": true,
@@ -51,6 +51,9 @@
   "files.autoSave": "afterDelay",
   "files.insertFinalNewline": true,
   "files.trimFinalNewlines": true,
+  "find-it-faster.general.useTerminalInEditor": true,
+  "find-it-faster.general.batTheme": "Nord",
+  "find-it-faster.general.showMaximizedTerminal": true,
   "git.enableSmartCommit": true,
   "highlight-matching-tag.highlightFromContent": true,
   "highlight-matching-tag.highlightSelfClosing": true,
@@ -60,6 +63,7 @@
   "markdownExtended.exportOutDirName": "output",
   "markdownExtended.pdfFooterTemplate": "<div style='font-size: 9px; margin-left: 1cm;'>Amerey.eu </div> <div style='font-size: 9px; margin-left: auto; margin-right: 1cm; '><span class='pageNumber'></span> / <span class='totalPages'></span></div>",
   "markdownExtended.pdfHeaderTemplate": " ",
+  "markdownExtended.puppeteerExecutable": "/home/owner/.config/pupeteer-chrome/chrome",
   "markdownExtended.tocLevels": [1, 2, 3, 4, 5, 6],
   "markdown.styles": ["assets/markdown.css"],
   "material-icon-theme.activeIconPack": "react",
@@ -82,15 +86,16 @@
   "ShortcutMenuBar.openFilesList": false,
   "ShortcutMenuBar.redo": true,
   "ShortcutMenuBar.save": true,
-  "ShortcutMenuBar.toggleTerminal": false,
+  "ShortcutMenuBar.toggleTerminal": true,
   "ShortcutMenuBar.undo": true,
   "ShortcutMenuBar.userButton01Command": "markdown-editor.openEditor",
   "svg.preview.mode": "svg",
   "telemetry.telemetryLevel": "off",
   "terminal.integrated.defaultProfile.linux": "zsh",
-  "terminal.integrated.fontFamily": "JetBrains Mono",
-  "terminal.integrated.fontSize": 16,
+  "terminal.integrated.fontFamily": "'JetBrainsMono Nerd Font Mono', monospace",
+  "terminal.integrated.fontSize": 18,
   "terminal.integrated.fontWeight": "normal",
+  "terminal.integrated.tabs.enabled": false,
   "todo-tree.general.rootFolder": "src",
   "todo-tree.general.showIconsInsteadOfTagsInStatusBar": true,
   "todo-tree.general.statusBar": "tags",
@@ -144,7 +149,8 @@
   "workbench.cloudChanges.continueOn": "off",
   "workbench.colorTheme": "Test - Nord Dark",
   "workbench.enableExperiments": false,
-  // "workbench.iconTheme": "material-icon-theme",
+  //"workbench.iconTheme": "material-icon-theme",
+  "workbench.panel.opensMaximized": "always",
   "workbench.productIconTheme": "icons-carbon",
   "workbench.settings.enableNaturalLanguageSearch": false,
   "workbench.sideBar.location": "right",
@@ -316,10 +322,19 @@
       "commands": ["extension.advancedNewFile"]
     },
     {
-      "before": ["<Leader>", "o"],
+      "before": ["<Leader>", "k"],
       "commands": [
-        "workbench.action.toggleSidebarVisibility"
+        "workbench.action.closeSidebar",
+        "find-it-faster.findWithinFiles"
       ]
+    },
+    {
+      "before": ["<Leader>", "j"],
+      "commands": ["workbench.action.closeSidebar", "find-it-faster.findFiles"]
+    },
+    {
+      "before": ["<Leader>", "o"],
+      "commands": ["workbench.action.toggleSidebarVisibility"]
     },
     {
       "before": ["<Leader>", "e"],
@@ -337,5 +352,5 @@
       "before": ["<Leader>", "c"],
       "commands": ["workbench.action.closeActiveEditor"]
     }
-  ],
+  ]
 }
