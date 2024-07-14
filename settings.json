@@ -351,6 +351,10 @@
     {
       "before": ["<Leader>", "c"],
       "commands": ["workbench.action.closeActiveEditor"]
+    },
+    {
+      "before": ["<Leader>", "q"],
+      "commands": ["workbench.action.closeAllEditors"]
     }
   ]
 }
