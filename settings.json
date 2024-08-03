@@ -38,7 +38,6 @@
   "editor.renderControlCharacters": false,
   "editor.renderWhitespace": "none",
   "editor.smoothScrolling": true,
-  "editor.snippetSuggestions": "top",
   "editor.stickyScroll.enabled": true,
   "editor.suggestSelection": "first",
   "editor.tabSize": 2,
@@ -54,6 +53,7 @@
   "find-it-faster.general.useTerminalInEditor": true,
   "find-it-faster.general.batTheme": "Nord",
   "find-it-faster.general.showMaximizedTerminal": true,
+  "formate.alignColon": false,
   "git.enableSmartCommit": true,
   "highlight-matching-tag.highlightFromContent": true,
   "highlight-matching-tag.highlightSelfClosing": true,
@@ -74,9 +74,9 @@
   "multiDiffEditor.experimental.enabled": false,
   "notebook.showFoldingControls": "always",
   "php.validate.executablePath": "/usr/share/libgda-5.0/php",
-  "prettier.bracketSameLine": true,
-  "prettier.endOfLine": "crlf",
+  "prettier.singleAttributePerLine": true,
   "prettier.useTabs": false,
+  "scss.lint.emptyRules": "ignore",
   "security.workspace.trust.banner": "never",
   "security.workspace.trust.startupPrompt": "never",
   "security.workspace.trust.untrustedFiles": "open",
@@ -129,7 +129,7 @@
   "vim.statusBarColors.insert": ["#D8DEE9", "#000000"],
   "vim.statusBarColors.normal": ["#16161f", "#fbfbfb"],
   "vim.statusBarColors.replace": ["#89c0d0", "#000000"],
-  "vim.statusBarColors.searchinprogressmode": ["#12abe3", "#000000"],
+  "vim.statusBarColors.searchinprogressmode": ["#0964a4", "#000000"],
   "vim.statusBarColors.surroundinputmode": ["#ffc4eb", "#000000"],
   "vim.statusBarColors.visual": ["#D6AD60", "#000000"],
   "vim.statusBarColors.visualblock": ["#D6AD60", "#000000"],
@@ -296,7 +296,7 @@
     }
   },
   "[scss]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "MikeBovenlander.formate"
   },
   "[typescript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
@@ -356,5 +356,5 @@
       "before": ["<Leader>", "q"],
       "commands": ["workbench.action.closeAllEditors"]
     }
-  ]
+  ],
 }
