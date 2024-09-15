@@ -13,7 +13,7 @@ echo "${color}Preparing codium snap for modification...${normal} "
 echo 
 
 
-# Get Revision Of Firefox Snap
+# Get Revision Of Codium Snap
 REV="$(snap list | grep codium | awk '{print $3}')"
 
 
