@@ -149,7 +149,7 @@
   "workbench.cloudChanges.continueOn": "off",
   "workbench.colorTheme": "Test - Nord Dark",
   "workbench.enableExperiments": false,
-  //"workbench.iconTheme": "material-icon-theme",
+  "workbench.iconTheme": "material-icon-theme",
   "workbench.panel.opensMaximized": "always",
   "workbench.productIconTheme": "icons-carbon",
   "workbench.settings.enableNaturalLanguageSearch": false,
