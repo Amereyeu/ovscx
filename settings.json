@@ -223,7 +223,7 @@
     "gutterIcon": true,
     "icon": "alert",
     "iconColour": "#ffffff",
-    "type": "whole-line"
+    "type": "text-and-comment"
   },
   "todo-tree.highlights.customHighlight": {
     "todo:": {
@@ -232,7 +232,7 @@
       "gutterIcon": true,
       "icon": "note",
       "iconColour": "#F1A104",
-      "type": "whole-line"
+      "type": "text-and-comment"
     },
     "bug:": {
       "background": "#F94238",
@@ -240,7 +240,7 @@
       "gutterIcon": true,
       "icon": "bug",
       "iconColour": "#F94238",
-      "type": "whole-line"
+      "type": "text-and-comment"
     },
     "fixme:": {
       "background": "#4B606F",
@@ -248,7 +248,7 @@
       "gutterIcon": true,
       "icon": "zap",
       "iconColour": "#4B606F",
-      "type": "whole-line"
+      "type": "text-and-comment"
     },
     "done:": {
       "background": "#25B396",
@@ -256,7 +256,7 @@
       "gutterIcon": true,
       "icon": "verified",
       "iconColour": "#25B396",
-      "type": "whole-line"
+      "type": "text-and-comment"
     },
     "note:": {
       "background": "#1669a4",
@@ -264,7 +264,7 @@
       "gutterIcon": true,
       "icon": "pencil",
       "iconColour": "#1669a4",
-      "type": "whole-line"
+      "type": "text-and-comment"
     }
   },
   "[astro]": {
