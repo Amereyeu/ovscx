@@ -57,6 +57,7 @@ alias windown="net rpc shutdown -f -t 0 -C 'shutting down from Linux' -U test%te
 alias dup="docker compose up -d"
 alias ddown="docker compose down"
 alias nv="nvim"
+alias cron="crontab -e"
 
 
 
