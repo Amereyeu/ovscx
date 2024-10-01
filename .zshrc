@@ -58,6 +58,7 @@ alias dup="docker compose up -d"
 alias ddown="docker compose down"
 alias nv="nvim"
 alias cron="crontab -e"
+alias bb="btop"
 
 
 
