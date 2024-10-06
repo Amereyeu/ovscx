@@ -1,0 +1,104 @@
+@import url(https://fonts.bunny.net/css?family=jetbrains-mono:400);
+
+:root {
+  --fonts-proportional: "JetBrains Mono" !important;
+  --fonts-monospace: "JetBrains Mono" !important;
+}
+
+.sha.label {
+  padding: 2px 10px !important;
+}
+
+.code-inner {
+  font-size: 16px !important;
+}
+
+[data-tippy-root] {
+  color: aliceblue;
+  background-color: #040406;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:active,
+.ui.form .field.field input:-webkit-autofill,
+.ui.form .field.field input:-webkit-autofill:focus,
+.ui.form .field.field input:-webkit-autofill:hover,
+.ui.form .field.field input:-webkit-autofill:active {
+  box-shadow: none !important;
+}
+
+.ui.ui.ui.button:not(.inverted, .basic).primary:hover,
+.ui.ui.ui.button:not(.inverted, .basic).green:hover,
+.ui.ui.ui.button:not(.inverted, .basic).red:hover,
+.ui.ui.ui.button:not(.inverted, .basic).teal:hover,
+.ui.ui.ui.label:not(.inverted, .basic).primary:hover,
+.ui.ui.ui.label:not(.inverted, .basic).green:hover,
+.ui.ui.ui.label:not(.inverted, .basic).red:hover,
+.ui.ui.ui.label:not(.inverted, .basic).teal:hover {
+  color: #f8ffff;
+  border: 1px solid #f8ffff !important;
+}
+
+.code-diff-split .del-code .lines-type-marker-new, .code-diff-split .del-code .lines-code-new, .code-diff-split .del-code .lines-escape-new, .code-diff-split .add-code .lines-escape-old, .code-diff-split .add-code .lines-type-marker-old, .code-diff-split .add-code .lines-code-old, .code-diff-split .add-code .lines-num.lines-num-old, .code-diff-split .del-code .lines-num.lines-num-new {
+    background: #fffaf3 !important;
+}
+
+
+
+
+.bar:nth-of-type(1) {
+    background-color: #2e3440 !important;
+}
+
+.bar:nth-of-type(2) {
+    background-color: #3b4252 !important;
+}
+
+.bar:nth-of-type(3) {
+    background-color: #434c5e !important;
+}
+
+.bar:nth-of-type(4) {
+    background-color: #4c566a !important;
+}
+
+.bar:nth-of-type(5) {
+    background-color: #2e3440 !important;
+}
+
+.ui.segments:not(.horizontal)>.segment:last-child {
+    display: none;
+}
+
+
+.ui.secondary.menu {
+    display: none;
+}
+
+.navbar-left .item:nth-of-type(2), 
+.navbar-left .item:nth-of-type(3), 
+.navbar-left .item:nth-of-type(4),
+.navbar-left .item:nth-of-type(5), 
+.navbar-right .item:nth-of-type(1)  {
+    display: none !important;
+}
+
+
+.flex-container {
+    flex-direction: column;
+    margin-top: 6rem;
+}
+
+.flex-container-sidebar {
+    width: 100%;
+    margin-top: 6rem;
+}
+
+#user-heatmap {
+    margin-bottom: 4rem;
+}
+
+
+
