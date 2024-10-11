@@ -10,6 +10,41 @@
         "path": "/home/owner/Dokumenty/react/vite",
         "color": "#FF7F00"
       },
+      {
+        "isGitRepo": false,
+        "id": "radixy555c6agmlki1brfy",
+        "name": "radix",
+        "path": "/home/owner/Dokumenty/react/radix",
+        "color": "#06A189"
+      },
+      {
+        "isGitRepo": true,
+        "id": "shadcnp2lg49840lki1ch0y",
+        "name": "shadcn",
+        "path": "/home/owner/Dokumenty/react/shadcn",
+        "color": "#FFF6D4"
+      },
+      {
+        "isGitRepo": true,
+        "id": "supabase5xf53hphwllt6bsjd",
+        "name": "supabase",
+        "path": "/home/owner/Dokumenty/react/supabase",
+        "color": "#F1E9FF"
+      },
+      {
+        "isGitRepo": true,
+        "id": "next13viyzn36filn64dzg7",
+        "name": "next13",
+        "path": "/home/owner/Dokumenty/web/next13",
+        "color": "#C69191"
+      },
+      {
+        "isGitRepo": false,
+        "id": "next13blog00gndcmemlnc0qslu",
+        "name": "next13blog",
+        "path": "/home/owner/Dokumenty/web/next13-md-blog",
+        "color": "#C9B93B"
+      }
     ],
     "collapsed": false
   },
@@ -154,5 +189,3 @@
     "collapsed": false
   }
 ]
-
-
