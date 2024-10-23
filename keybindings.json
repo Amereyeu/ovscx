@@ -87,7 +87,7 @@
     "command": "editor.action.clipboardPasteAction"
   },
   {
-    "key": "alt+x",
+    "key": "alt+,",
     "command": "extension.vim_ctrl+x",
     "when": "editorTextFocus && vim.active && vim.use<C-x> && !inDebugRepl"
   },
@@ -97,7 +97,7 @@
     "when": "editorTextFocus && vim.active && vim.use<C-x> && !inDebugRepl"
   },
   {
-    "key": "alt+c",
+    "key": "alt+.",
     "command": "extension.vim_ctrl+a",
     "when": "editorTextFocus && vim.active && vim.use<C-a> && !inDebugRepl"
   },
@@ -255,8 +255,40 @@
   {
     "key": "ctrl+alt+k",
     "command": "workbench.action.toggleSidebarVisibility"
+  },
+  {
+    "key": "ctrl+shift+i",
+    "command": "workbench.action.toggleDevTools"
+  },
+  {
+    "key": "ctrl+shift+i",
+    "command": "-workbench.action.toggleDevTools",
+    "when": "isDevelopment"
+  },
+  {
+    "key": "ctrl+shift+o",
+    "command": "workbench.action.files.openFolder",
+    "when": "openFolderWorkspaceSupport"
+  },
+  {
+    "key": "ctrl+k ctrl+o",
+    "command": "-workbench.action.files.openFolder",
+    "when": "openFolderWorkspaceSupport"
+  },
+  {
+    "key": "ctrl+w",
+    "command": "workbench.action.closeActiveEditor"
+  },
+  {
+    "key": "ctrl+alt+w",
+    "command": "workbench.action.closeAllEditors"
+  },
+  {
+    "key": "ctrl+k ctrl+w",
+    "command": "-workbench.action.closeAllEditors"
+  },
+  {
+    "key": "alt+q",
+    "command": "openEditors.closeAll"
   }
 ]
-
-
-
