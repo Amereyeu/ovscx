@@ -47,6 +47,7 @@
   "emmet.triggerExpansionOnTab": true,
   "explorer.confirmDelete": false,
   "explorer.confirmDragAndDrop": false,
+  "fluid-fonts.units": "rem",
   "files.autoSave": "afterDelay",
   "files.insertFinalNewline": true,
   "files.trimFinalNewlines": true,
