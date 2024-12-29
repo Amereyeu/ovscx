@@ -1,1 +1,27 @@
+window-theme = ghostty
+theme = Ayu Mirage
+background = 16161f
+foreground = ffffff
+
+window-padding-y = 20
+window-padding-x = 10
+
+gtk-tabs-location = bottom
+gtk-wide-tabs = false
+
+font-family = "JetBrainsMono Nerd Font"
+font-size = 14
+
+adjust-cursor-thickness = 4
+cursor-style-blink = true
+
+mouse-hide-while-typing = true
+copy-on-select = true
+
+keybind = ctrl+v=paste_from_clipboard
+keybind = shift+alt+j=increase_font_size:1
+keybind = shift+alt+k=decrease_font_size:1
+keybind = command+equal=reset_font_size
+keybind = command+q=quit
+keybind = ctrl+shift+t=new_tab
 
