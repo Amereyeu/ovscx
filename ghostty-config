@@ -3,7 +3,7 @@ theme = Ayu Mirage
 background = 16161f
 foreground = ffffff
 
-window-padding-y = 20
+window-padding-y = 10
 window-padding-x = 10
 
 gtk-tabs-location = bottom
