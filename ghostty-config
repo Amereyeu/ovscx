@@ -1,3 +1,5 @@
+gtk-single-instance = true
+
 window-theme = ghostty
 theme = Ayu Mirage
 background = 16161f
