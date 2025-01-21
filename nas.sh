@@ -57,13 +57,6 @@ sudo apt install nala -y
 
 
 echo
-echo -e "▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓ ${color}Installing Midnight commander...${normal} "
-echo
-sudo apt install mc -y
-
-
-
-echo
 echo -e "▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓ ${color}Installing Btop++...${normal} "
 echo
 sudo apt install btop -y
