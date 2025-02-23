@@ -3,18 +3,14 @@ if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]
   source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
 fi
 
-
 export ZSH="$HOME/.oh-my-zsh"
 
-
 ZSH_THEME="powerlevel10k/powerlevel10k"
-
 
 plugins=(zsh-autosuggestions zsh-syntax-highlighting)
 
 export ZSH_COMPDUMP=$ZSH/cache/.zcompdump-$HOST
 source $ZSH/oh-my-zsh.sh
-
 
 alias show="colorls -lX -p -lh -g"
 alias cl="clear"
@@ -30,11 +26,8 @@ alias vite="npm run dev -- --host"
 alias godoj="cd;Dokumenty/web/doj;vite"
 alias gokurz="cd;Dokumenty/web/kurzyup;gulp"
 alias godemo="cd;Dokumenty/web/react-wp-demo;vite"
-alias gocv="cd;Dokumenty/web/online-cv;vite"
-alias goonline="cd;Dokumenty/web/online;vite"
 alias gotech="cd;Dokumenty/web/react-tech;vite"
-alias gonextwp="cd;Dokumenty/web/next13-wp;dev"
-alias chef="cd;Dokumenty/web/recipe;vite"
+alias gg="npm version patch"
 alias gs="git status"
 alias gss="git status -s"
 alias ga="git add ."
