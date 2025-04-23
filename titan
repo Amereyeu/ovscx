@@ -1,1 +1,110 @@
+# AGold
+	pm uninstall -k --user 0 com.scanning.agold.agoldscanning 
+	pm uninstall -k --user 0 com.agoldcomm.toolbox 
+	pm uninstall -k --user 0 com.agold.autopoweronoff 
+	pm uninstall -k --user 0 com.android.agold.flashtest 
+	pm uninstall -k --user 0 com.agold.AgoldFactoryTest 
+	pm uninstall -k --user 0 com.agold.cyclocomputer 
+	pm uninstall -k --user 0 com.agui.app.memtester 
+pm uninstall -k --user 0 com.agui.game com.agui.wifi 
+	pm uninstall -k --user 0 com.agui.studentmodel 
+	pm uninstall -k --user 0 com.agui.usbcamera
+
+
+
+# Mediatek
+	pm uninstall -k --user 0 com.mediatek.omacp 
+	pm uninstall -k --user 0 com.mediatek.simprocessor 
+	pm uninstall -k --user 0 com.mediatek.miravision.ui 
+	pm uninstall -k --user 0 com.mediatek.atmwifimeta 
+pm uninstall -k --user 0 com.mediatek.ims.pco com.mediatek.engineermodecmas 
+	pm uninstall -k --user 0 com.mediatek.cellbroadcastreceiver 
+	pm uninstall -k --user 0 com.mediatek.op12.cellbroadcastreceiver 
+	pm uninstall -k --user 0 com.mediatek.op08.cellbroadcastreceiver 
+	pm uninstall -k --user 0 com.mediatek.op236.cellbroadcastreceiver 
+	pm uninstall -k --user 0 com.mediatek.op07.cellbroadcastreceiver 
+	pm uninstall -k --user 0 com.mediatek.op20.cellbroadcastreceiver
+
+
+
+# Google
+	pm uninstall -k --user 0 com.google.android.apps.docs 
+	pm uninstall -k --user 0 com.google.android.apps.maps 
+	pm uninstall -k --user 0 com.google.android.apps.photos 
+	pm uninstall -k --user 0 com.google.android.apps.tachyon 
+	pm uninstall -k --user 0 com.google.android.apps.wellbeing 
+	pm uninstall -k --user 0 com.google.android.feedback 
+	pm uninstall -k --user 0 com.google.android.gm 
+	pm uninstall -k --user 0 com.google.android.gms.location.history 
+	pm uninstall -k --user 0 com.google.android.googlequicksearchbox 
+pm uninstall -k --user 0 com.google.android.inputmethod.latin 
+	pm uninstall -k --user 0 com.google.android.marvin.talkback 
+	pm uninstall -k --user 0 com.google.android.printservice.recommendation 
+	pm uninstall -k --user 0 com.google.android.syncadapters.calendar 
+	pm uninstall -k --user 0 com.google.android.tts 
+	pm uninstall -k --user 0 com.google.android.videos 
+	pm uninstall -k --user 0 com.google.android.youtube 
+	pm uninstall -k --user 0 com.google.android.calendar 
+	pm uninstall -k --user 0 com.google.android.setupwizard 
+	pm uninstall -k --user 0 com.google.android.apps.youtube.music 
+	pm uninstall -k --user 0 com.google.android.apps.restore 
+	pm uninstall -k --user 0 com.google.android.overlay.searchlauncherconfig 
+	pm uninstall -k --user 0 com.google.android.projection.gearhead 
+	pm uninstall -k --user 0 com.google.android.apps.googleassistant 
+	pm uninstall -k --user 0 com.google.android.onetimeinitializer 
+	pm uninstall -k --user 0 com.google.android.apps.messaging 
+	pm uninstall -k --user 0 com.google.android.partnersetup 
+pm uninstall -k --user 0 com.google.android.keep com.google.android.apps.nbu.files
+
+
+
+# Google Play Services & Co
+	pm uninstall -k --user 0 com.android.vending 
+	pm uninstall -k --user 0 com.google.android.gms 
+	pm uninstall -k --user 0 com.google.android.gsf 
+	pm uninstall -k --user 0 com.google.android.ims 
+pm uninstall -k --user 0 com.google.android.tag com.google.android.gmsintegration
+
+
+
+# ROM
+	pm uninstall -k --user 0 com.android.bips 
+	pm uninstall -k --user 0 com.android.bookmarkprovider 
+	pm uninstall -k --user 0 com.android.chrome 
+	pm uninstall -k --user 0 com.android.deskclock 
+	pm uninstall -k --user 0 com.android.dreams.basic 
+	pm uninstall -k --user 0 com.android.egg 
+	pm uninstall -k --user 0 com.android.emergency 
+	pm uninstall -k --user 0 com.android.mms 
+	pm uninstall -k --user 0 com.android.mms.service 
+	pm uninstall -k --user 0 com.android.printspooler 
+	pm uninstall -k --user 0 com.android.statementservice 
+	pm uninstall -k --user 0 com.android.wallpaper.livepicker 
+	pm uninstall -k --user 0 com.android.wallpaperbackup 
+	pm uninstall -k --user 0 com.android.wallpapercropper 
+	pm uninstall -k --user 0 com.android.soundrecorder 
+	pm uninstall -k --user 0 com.mediatek.notebook
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
