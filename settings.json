@@ -18,6 +18,7 @@
   "editor.cursorSmoothCaretAnimation": "on",
   "editor.cursorStyle": "line",
   "editor.cursorWidth": 5,
+  "editor.cursorSurroundingLines": 8,
   "editor.detectIndentation": false,
   "editor.fontFamily": "'JetBrains Mono','Fira Code', monospace",
   "editor.fontLigatures": true,
