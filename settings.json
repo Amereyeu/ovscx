@@ -363,4 +363,8 @@
       "commands": ["workbench.action.closeAllEditors"]
     }
   ],
+  "markdown.preview.breaks": true,
+  "markdown.updateLinksOnFileMove.enabled": "always",
+  "markdown.occurrencesHighlight.enabled": true,
+  "editor.wordSeparators": "`~!@#$%^&*()=+[{]}\\|;:'\",.<>/?"
 }
