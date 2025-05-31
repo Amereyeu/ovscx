@@ -363,6 +363,18 @@
       "commands": ["workbench.action.closeAllEditors"]
     }
   ],
+    "vim.visualModeKeyBindings": [
+    {
+      "before": ["J"],
+      "commands": ["editor.action.moveLinesDownAction"]
+    },
+    {
+      "before": ["K"],
+      "commands": ["editor.action.moveLinesUpAction"]
+    },
+    { "before": ["<"], "commands": ["editor.action.outdentLines"] },
+    { "before": [">"], "commands": ["editor.action.indentLines"] }
+  ],
   "markdown.preview.breaks": true,
   "markdown.updateLinksOnFileMove.enabled": "always",
   "markdown.occurrencesHighlight.enabled": true,
