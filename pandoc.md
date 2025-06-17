@@ -1,4 +1,3 @@
-
 ---
 title: Markdown and Pandoc examples
 subtitle: yaml settings
