@@ -1,3 +1,4 @@
+
 ---
 title: Markdown and Pandoc examples
 subtitle: yaml settings
@@ -31,8 +32,6 @@ watermark: DEMO VERSION
 linkcolor: gray
 urlcolor: blue
 ---
-
-
 
 # one
 ## two
