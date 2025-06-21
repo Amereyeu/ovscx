@@ -1,4 +1,5 @@
-gtk-single-instance = true
+gtk-single-instance = false
+window-inherit-working-directory = true
 
 window-theme = ghostty
 theme = Ayu Mirage
