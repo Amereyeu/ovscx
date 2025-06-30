@@ -12,6 +12,11 @@ plugins=(zsh-autosuggestions zsh-syntax-highlighting)
 export ZSH_COMPDUMP=$ZSH/cache/.zcompdump-$HOST
 source $ZSH/oh-my-zsh.sh
 
+# VIM
+bindkey -v
+export VI_MODE_SET_CURSOR=true
+
+
 alias show="colorls -lX -p -lh -g"
 alias cl="clear"
 alias aa="colorls -1 -X"
