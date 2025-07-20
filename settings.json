@@ -375,6 +375,12 @@
     { "before": ["<"], "commands": ["editor.action.outdentLines"] },
     { "before": [">"], "commands": ["editor.action.indentLines"] }
   ],
+  "vim.insertModeKeyBindings": [
+    {
+      "before": ["j", "j"],
+      "after": ["<esc>"]
+    }
+  ],
   "markdown.preview.breaks": true,
   "markdown.updateLinksOnFileMove.enabled": "always",
   "markdown.occurrencesHighlight.enabled": true,
