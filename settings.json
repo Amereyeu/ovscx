@@ -76,7 +76,6 @@
   "MinifyAll.disableJavascriptReact": false,
   "multiDiffEditor.experimental.enabled": false,
   "notebook.showFoldingControls": "always",
-  "php.validate.executablePath": "/usr/share/libgda-5.0/php",
   "prettier.singleAttributePerLine": true,
   "prettier.useTabs": false,
   "scss.lint.emptyRules": "ignore",
