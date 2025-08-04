@@ -315,6 +315,10 @@
       "commands": ["workbench.action.showCommands"]
     },
     {
+      "before": ["<Leader>", "ů"],
+      "commands": ["ShortcutMenuBar.beautify"]
+    },
+    {
       "before": ["<Leader>", "f"],
       "commands": ["workbench.action.quickOpen"]
     },
